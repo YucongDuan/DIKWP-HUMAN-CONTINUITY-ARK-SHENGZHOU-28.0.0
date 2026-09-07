@@ -1,0 +1,31 @@
+{
+  "version": "28.0.0",
+  "errors": [],
+  "runtimeRequests": [],
+  "checks": {
+    "title": "生舟 28.0 | AGI时代个人生存连续性系统",
+    "views": 15,
+    "navButtons": 15,
+    "metricCards": 5,
+    "priorityActions": 6,
+    "profileEdit": true,
+    "worldCards": 8,
+    "worldEdit": true,
+    "floorCards": 12,
+    "kitItems": 10,
+    "messageScan": true,
+    "addSource": true,
+    "aiFirewall": true,
+    "addContact": true,
+    "activationMode": true,
+    "drillGenerated": true,
+    "drillSaved": true,
+    "planLength": true,
+    "ledger": true,
+    "receiptCount": true,
+    "mobileMenu": true
+  },
+  "mobileErrors": [],
+  "mobileRuntimeRequests": [],
+  "passed": true
+}

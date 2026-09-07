@@ -1,0 +1,154 @@
+[
+  {
+    "id": "rapid_automation",
+    "name": "Rapid automation and income shock",
+    "weight": 0.16,
+    "impact": {
+      "supplies": 0.92,
+      "health": 0.9,
+      "shelter": 0.92,
+      "communication": 0.96,
+      "identity": 0.96,
+      "finance": 0.48,
+      "digital": 0.9,
+      "information": 0.82,
+      "ai_authority": 0.78,
+      "mobility": 0.9,
+      "community": 0.82,
+      "psychological": 0.62
+    }
+  },
+  {
+    "id": "ai_fraud",
+    "name": "AI-enabled fraud, impersonation and influence",
+    "weight": 0.14,
+    "impact": {
+      "supplies": 0.96,
+      "health": 0.86,
+      "shelter": 0.96,
+      "communication": 0.52,
+      "identity": 0.52,
+      "finance": 0.48,
+      "digital": 0.62,
+      "information": 0.42,
+      "ai_authority": 0.5,
+      "mobility": 0.88,
+      "community": 0.72,
+      "psychological": 0.7
+    }
+  },
+  {
+    "id": "cyber_identity",
+    "name": "Cyber compromise and identity lockout",
+    "weight": 0.14,
+    "impact": {
+      "supplies": 0.92,
+      "health": 0.82,
+      "shelter": 0.9,
+      "communication": 0.58,
+      "identity": 0.4,
+      "finance": 0.5,
+      "digital": 0.38,
+      "information": 0.66,
+      "ai_authority": 0.54,
+      "mobility": 0.84,
+      "community": 0.78,
+      "psychological": 0.72
+    }
+  },
+  {
+    "id": "cloud_payment_outage",
+    "name": "Cloud, payment and communications outage",
+    "weight": 0.13,
+    "impact": {
+      "supplies": 0.72,
+      "health": 0.72,
+      "shelter": 0.78,
+      "communication": 0.44,
+      "identity": 0.62,
+      "finance": 0.38,
+      "digital": 0.46,
+      "information": 0.58,
+      "ai_authority": 0.72,
+      "mobility": 0.66,
+      "community": 0.72,
+      "psychological": 0.78
+    }
+  },
+  {
+    "id": "essential_services",
+    "name": "Essential-service and supply disruption",
+    "weight": 0.13,
+    "impact": {
+      "supplies": 0.4,
+      "health": 0.44,
+      "shelter": 0.48,
+      "communication": 0.72,
+      "identity": 0.86,
+      "finance": 0.7,
+      "digital": 0.64,
+      "information": 0.66,
+      "ai_authority": 0.84,
+      "mobility": 0.6,
+      "community": 0.58,
+      "psychological": 0.68
+    }
+  },
+  {
+    "id": "autonomous_agent_incident",
+    "name": "Autonomous-agent or system-control incident",
+    "weight": 0.12,
+    "impact": {
+      "supplies": 0.86,
+      "health": 0.72,
+      "shelter": 0.8,
+      "communication": 0.62,
+      "identity": 0.54,
+      "finance": 0.52,
+      "digital": 0.42,
+      "information": 0.5,
+      "ai_authority": 0.34,
+      "mobility": 0.76,
+      "community": 0.72,
+      "psychological": 0.66
+    }
+  },
+  {
+    "id": "local_relocation",
+    "name": "Local safety failure and temporary relocation",
+    "weight": 0.1,
+    "impact": {
+      "supplies": 0.56,
+      "health": 0.58,
+      "shelter": 0.36,
+      "communication": 0.54,
+      "identity": 0.6,
+      "finance": 0.64,
+      "digital": 0.62,
+      "information": 0.68,
+      "ai_authority": 0.84,
+      "mobility": 0.34,
+      "community": 0.52,
+      "psychological": 0.56
+    }
+  },
+  {
+    "id": "compound_crisis",
+    "name": "Compound discontinuity",
+    "weight": 0.08,
+    "impact": {
+      "supplies": 0.38,
+      "health": 0.4,
+      "shelter": 0.42,
+      "communication": 0.36,
+      "identity": 0.4,
+      "finance": 0.32,
+      "digital": 0.3,
+      "information": 0.34,
+      "ai_authority": 0.32,
+      "mobility": 0.38,
+      "community": 0.42,
+      "psychological": 0.38
+    }
+  }
+]

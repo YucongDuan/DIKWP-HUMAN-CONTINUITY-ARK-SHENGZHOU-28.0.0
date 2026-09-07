@@ -1,0 +1,74 @@
+[
+  {
+    "id": "supplies",
+    "zh": "物资",
+    "en": "Supplies",
+    "purpose": "Water, food, hygiene and emergency kit"
+  },
+  {
+    "id": "health",
+    "zh": "健康",
+    "en": "Health",
+    "purpose": "Medicine, first aid, medical summary and care backup"
+  },
+  {
+    "id": "shelter",
+    "zh": "住所",
+    "en": "Shelter",
+    "purpose": "Power, utilities, temperature and safe place"
+  },
+  {
+    "id": "communication",
+    "zh": "通信",
+    "en": "Communication",
+    "purpose": "Trusted contacts, channels, meeting points and radio"
+  },
+  {
+    "id": "identity",
+    "zh": "身份",
+    "en": "Identity",
+    "purpose": "Documents, account recovery, clean-device path and secure storage"
+  },
+  {
+    "id": "finance",
+    "zh": "财务",
+    "en": "Finance",
+    "purpose": "Accessible reserve, payment rails, income and work evidence"
+  },
+  {
+    "id": "digital",
+    "zh": "数字",
+    "en": "Digital",
+    "purpose": "MFA, password management, backups, updates and authorization review"
+  },
+  {
+    "id": "information",
+    "zh": "信息",
+    "en": "Information",
+    "purpose": "Official sources, source diversity, verification and correction"
+  },
+  {
+    "id": "ai_authority",
+    "zh": "AI权限",
+    "en": "AI Authority",
+    "purpose": "Human confirmation, least privilege, inventory and revocation"
+  },
+  {
+    "id": "mobility",
+    "zh": "迁移",
+    "en": "Mobility",
+    "purpose": "Routes, go-bag, destination, transport and pet plan"
+  },
+  {
+    "id": "community",
+    "zh": "社区",
+    "en": "Community",
+    "purpose": "Mutual aid, local organizations, shared resources and reciprocal skills"
+  },
+  {
+    "id": "psychological",
+    "zh": "心理",
+    "en": "Psychological",
+    "purpose": "Check-ins, sleep, calm protocol, media limits and dependent routine"
+  }
+]

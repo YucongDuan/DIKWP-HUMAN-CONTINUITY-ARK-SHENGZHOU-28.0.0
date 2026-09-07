@@ -1,0 +1,465 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "DIKWP SHENGZHOU 28.0.0 SBOM",
+  "documentNamespace": "https://yucongduan.org/dikwp/shengzhou/28.0.0/20260906111006",
+  "creationInfo": {
+    "created": "2026-09-06T11:10:06.738269+00:00",
+    "creators": [
+      "Tool: SHENGZHOU release builder"
+    ]
+  },
+  "files": [
+    {
+      "SPDXID": "SPDXRef-ab09011fa121",
+      "fileName": "CHANGELOG.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "80aae822505f77982c961411b9d3b00b5e7693c5c650dfe00a23c80f3d665c6e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-3f454a98e586",
+      "fileName": "CONTRIBUTING.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ae30bdf628a3657d89561957ea06bec9c985b6840c1c6f9eb6420cde73d5df1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-8ec9a00bfd09",
+      "fileName": "README.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9fd60713c85332742e1625cc80f38dcdb5d5e85646a28457f8de4ddb7e58577c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-e5d21eab4d20",
+      "fileName": "README_CN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "77020dc1bda3acdd653b6b359633cb219a353d2a0dc85f72d6f3f406ede1999b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-7c875fef5426",
+      "fileName": "SECURITY.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d36ab06e5ed883a0a7703317add8544731ad56fdafb454735fa4289ddd3a883c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-b7155d837abd",
+      "fileName": "app/app.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dcff125367a04492cb9e7c94e7f84a65df3f9c5c752352e651d4d2f53f885016"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-4666f226724f",
+      "fileName": "app/core.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eae10bd480813f0e6c06809c342c05bf39ea03a2407ae359ded269fc6105d53d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-4c0e2c768216",
+      "fileName": "data/activation-levels.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "70241056cba60baa0b5db670ccab87a47098fbc1ef89dfadbf9d7b650d73698f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-1fe8ac5bf865",
+      "fileName": "data/ai-action-classes.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "29e6bad8dee73295bda7afbffc2f32f74f7c376a83bb78fe46f9656438d14dda"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-c92ea2343a96",
+      "fileName": "data/disruption-worlds.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9e9d108c266c94355199329e8b8b1c88db447eb25a1d36ffda4b3fd610434d1c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-d5cbc97d6cf0",
+      "fileName": "data/life-floors.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a13b0aa7447e820fe963a55605b6b6c8e99d22d2aaafde7ce5a6ec84bb71cd75"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-ff1fd48f441c",
+      "fileName": "docs/AGI_DISCONTINUITY_WORLDS_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "37433c2b959f79521c03e4f10b9faa93b5bdb28fb0522c388761f402b68ca36e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-5cd08eaa620f",
+      "fileName": "docs/AI_AUTHORITY_FIREWALL_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9cfe971a4c532d552c5de0e342049b366e35a587962f55671b55fc5a97d9895e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-18a2c02e530d",
+      "fileName": "docs/ARCHITECTURE_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e05dba1c94ecfc0d8c7597071dcaaf899238007df4bcc376c13a99d6427c7bce"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-2058f257dbe9",
+      "fileName": "docs/DRILLS_AND_REALITY_CONTACT_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e630c5eb7fc3911f493c8b93e6633894dae5562a2f825ac9e501cc2095a284a8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-c89dcbc93744",
+      "fileName": "docs/FAMILY_TRUST_AND_DEEPFAKE_PROTOCOL_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3ecefb0fcb597b6dac81a2be5fca10b4f2300e845cb60666bfde2e5148a671fe"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-2d79a4ad0c2d",
+      "fileName": "docs/LOCALIZATION_GUIDE_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c44156b5dfeb3c48875850a37b4c9b4a9a0630a7c1adf81e7f4992e05276e71"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-eb94eacf4fae",
+      "fileName": "docs/PERSONAL_PREPAREDNESS_GUIDE_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e579714a4f78c5e63aa2a9c43092c12caea876023b3e527cecdf4c9cc1c907a7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-f98a93a6ab28",
+      "fileName": "docs/SOURCE_REGISTER.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f32c82f114a7dead60da84d322f3019d6709a361d1a328a0d1d2187517e4360"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-2af7731f5aec",
+      "fileName": "examples/ai-purpose-mandate.example.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2280450cd252478e4c0dccad50378e37d1b6df0a9af259d68dbc54a207bed858"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-01db8123a71d",
+      "fileName": "examples/local-continuity-pack.example.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fea5972258e8b893d7f9b84db16293660dc982089f370277c9a626fecd0a7908"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-970f51925604",
+      "fileName": "examples/shengzhou28-demo-assessment.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f39709834d775dd076c5b0a4984105a72139a6ff2d20a4b4237978583871a7c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-34f68695afea",
+      "fileName": "examples/shengzhou28-demo-state.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "05ebea6343d49700aa25c4eeb3036849e6653096b9075a990312d22f5884cdb0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-6276ace364dc",
+      "fileName": "examples/shengzhou28-demo.hcpkg.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df8ca577fb0c88e9123e8349ab75b01adc64fa553499a2c2f0cc98c1e907e6d2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-f6013a00b362",
+      "fileName": "index.html",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "52b337c1a49ebfed2fac2c3eaa27d7ee30ca43e10beaea49ade30b569284b9ab"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-7030d0b2f71b",
+      "fileName": "package.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d03acb882398581f64cbd8a5e8af7d02a4187d923e40e15b77c3d41abf150d42"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-5d07e7d72637",
+      "fileName": "pyproject.toml",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3a0007a7033ddf3db6d58424e08e83bdeda0d404de8b960bb8c72461ca8a33fb"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-05de00468ee0",
+      "fileName": "python/shengzhou/__init__.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "38c11c055b3ba54a43b586d3537a030d658d2bb0053fde5600792682f9244135"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-0ef91f0d342b",
+      "fileName": "python/shengzhou/__main__.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-a8d1c07d2b71",
+      "fileName": "python/shengzhou/cli.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6551aa0af3a14ddb62b1a5c29cbc9f9ae4d6ac0d1c29053d2817e5b650f9a71e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-97d8b8e43da9",
+      "fileName": "python/shengzhou/core.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "919ab3d472d85f87cae9a517715b9615b21fc21e12840bff3c53cbe37fb46ad8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-806d6ceb4e60",
+      "fileName": "run.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f8e44ef5543cadbe4cd24d8c5b7efb40d14ffc0b5259b419854d15c8c297b6d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-d50293873313",
+      "fileName": "schemas/package.schema.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b54954369f74f90bbeed3cb09af21f9798936b5bf7592cfa40fd49e703e42971"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-9c64e6a44d47",
+      "fileName": "schemas/profile.schema.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "078994b6e68c93dc1183bc8acddcd20029d80f256fb0e8c768ca774377e67663"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-6dc66bde3825",
+      "fileName": "schemas/receipt.schema.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e95d0786adb31bcfb6e61f3cdc260028d273cc858ba5214bff7d5fea31077c5f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-e31eb2948e89",
+      "fileName": "schemas/state.schema.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "20e8f37d4d39161122c357bbb02561562d604df53d823907fa5e87c5f3f4d32d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-39f615b77704",
+      "fileName": "scripts/build_release.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1b509ac24e20d4f7b24e716747434374c7f2d7cdbc2f51bb87560792e8143ac"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-b464958c8445",
+      "fileName": "scripts/build_reports.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "228dbf4f6ff0553dfcc546cd7293d4f86d32d19ab938a273fcef07a262fe8745"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-7f0a6652521c",
+      "fileName": "scripts/build_standalone.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3829aa253dccbfd9217aa205fe4b2d220af4f3be046dc1e893757eefb56f4f41"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-1f422b2bfa07",
+      "fileName": "scripts/static_scan.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4fdab21a4b0323747c2a40d9e1f3b09e56a585156bfd336cdb2641687ccc26e3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-d1bbad134cb8",
+      "fileName": "scripts/validate_schemas.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c0ad79a846963c6313cfbc8fa86020921cef727b72a3e958c63f8a9a331a6001"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-dcd0445f8d73",
+      "fileName": "spec/SHENGZHOU-PERSONAL-CONTINUITY-PROTOCOL-28.0.0-DRAFT.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1adde89767021f55366c37c3adbe8a08b96880b026097db2f7bf0a374b6f0646"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-f3a17b38dd2e",
+      "fileName": "tests/browser_qa.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1e0f60ba1825b67afc6347515d9efe7fa96b07103eca0cbeaa7c678867c11c71"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-8812cd2073de",
+      "fileName": "tests/test_core.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31cd605f7d1961b7d4b29fc4622532526b3fe841888cd381320d8599d67c9665"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-d2ea59f7e03d",
+      "fileName": "tests/test_core.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7decfd370adb4b351e949dd346808a0f1d8e98dabc0efef67f3a856821c3fa3d"
+        }
+      ]
+    }
+  ]
+}

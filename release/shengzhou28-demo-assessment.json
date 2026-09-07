@@ -1,0 +1,385 @@
+{
+  "base": {
+    "supplies": 0.8992857142857142,
+    "health": 1.0,
+    "shelter": 0.95,
+    "communication": 1.0,
+    "identity": 1.0,
+    "finance": 0.9714285714285713,
+    "digital": 0.9866666666666667,
+    "information": 1.0,
+    "ai_authority": 1.0,
+    "mobility": 1.0,
+    "community": 1.0,
+    "psychological": 1.0
+  },
+  "worlds": [
+    {
+      "id": "rapid_automation",
+      "name": "Rapid automation and income shock",
+      "weight": 0.16,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.8273428571428572,
+        "health": 0.9,
+        "shelter": 0.874,
+        "communication": 0.96,
+        "identity": 0.96,
+        "finance": 0.4662857142857142,
+        "digital": 0.888,
+        "information": 0.82,
+        "ai_authority": 0.78,
+        "mobility": 0.9,
+        "community": 0.82,
+        "psychological": 0.62
+      },
+      "floor": 0.4662857142857142,
+      "weakest": [
+        [
+          "finance",
+          0.4662857142857142
+        ],
+        [
+          "psychological",
+          0.62
+        ],
+        [
+          "ai_authority",
+          0.78
+        ]
+      ]
+    },
+    {
+      "id": "ai_fraud",
+      "name": "AI-enabled fraud, impersonation and influence",
+      "weight": 0.14,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.8633142857142856,
+        "health": 0.86,
+        "shelter": 0.9119999999999999,
+        "communication": 0.52,
+        "identity": 0.52,
+        "finance": 0.4662857142857142,
+        "digital": 0.6117333333333334,
+        "information": 0.41999999999999993,
+        "ai_authority": 0.5,
+        "mobility": 0.88,
+        "community": 0.72,
+        "psychological": 0.7
+      },
+      "floor": 0.41999999999999993,
+      "weakest": [
+        [
+          "information",
+          0.41999999999999993
+        ],
+        [
+          "finance",
+          0.4662857142857142
+        ],
+        [
+          "ai_authority",
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "cyber_identity",
+      "name": "Cyber compromise and identity lockout",
+      "weight": 0.14,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.8273428571428572,
+        "health": 0.82,
+        "shelter": 0.855,
+        "communication": 0.58,
+        "identity": 0.4,
+        "finance": 0.48571428571428565,
+        "digital": 0.37493333333333334,
+        "information": 0.66,
+        "ai_authority": 0.54,
+        "mobility": 0.84,
+        "community": 0.78,
+        "psychological": 0.72
+      },
+      "floor": 0.37493333333333334,
+      "weakest": [
+        [
+          "digital",
+          0.37493333333333334
+        ],
+        [
+          "identity",
+          0.4
+        ],
+        [
+          "finance",
+          0.48571428571428565
+        ]
+      ]
+    },
+    {
+      "id": "cloud_payment_outage",
+      "name": "Cloud, payment and communications outage",
+      "weight": 0.13,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.6474857142857142,
+        "health": 0.72,
+        "shelter": 0.741,
+        "communication": 0.43999999999999995,
+        "identity": 0.62,
+        "finance": 0.3691428571428571,
+        "digital": 0.45386666666666664,
+        "information": 0.58,
+        "ai_authority": 0.72,
+        "mobility": 0.66,
+        "community": 0.72,
+        "psychological": 0.78
+      },
+      "floor": 0.3691428571428571,
+      "weakest": [
+        [
+          "finance",
+          0.3691428571428571
+        ],
+        [
+          "communication",
+          0.43999999999999995
+        ],
+        [
+          "digital",
+          0.45386666666666664
+        ]
+      ]
+    },
+    {
+      "id": "essential_services",
+      "name": "Essential-service and supply disruption",
+      "weight": 0.13,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.3597142857142857,
+        "health": 0.43999999999999995,
+        "shelter": 0.45599999999999996,
+        "communication": 0.72,
+        "identity": 0.86,
+        "finance": 0.6799999999999998,
+        "digital": 0.6314666666666667,
+        "information": 0.66,
+        "ai_authority": 0.84,
+        "mobility": 0.6,
+        "community": 0.58,
+        "psychological": 0.68
+      },
+      "floor": 0.3597142857142857,
+      "weakest": [
+        [
+          "supplies",
+          0.3597142857142857
+        ],
+        [
+          "health",
+          0.43999999999999995
+        ],
+        [
+          "shelter",
+          0.45599999999999996
+        ]
+      ]
+    },
+    {
+      "id": "autonomous_agent_incident",
+      "name": "Autonomous-agent or system-control incident",
+      "weight": 0.12,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.7733857142857142,
+        "health": 0.72,
+        "shelter": 0.76,
+        "communication": 0.62,
+        "identity": 0.54,
+        "finance": 0.5051428571428571,
+        "digital": 0.41439999999999994,
+        "information": 0.5,
+        "ai_authority": 0.3400000000000001,
+        "mobility": 0.76,
+        "community": 0.72,
+        "psychological": 0.66
+      },
+      "floor": 0.3400000000000001,
+      "weakest": [
+        [
+          "ai_authority",
+          0.3400000000000001
+        ],
+        [
+          "digital",
+          0.41439999999999994
+        ],
+        [
+          "information",
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "local_relocation",
+      "name": "Local safety failure and temporary relocation",
+      "weight": 0.1,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.5036,
+        "health": 0.58,
+        "shelter": 0.34199999999999997,
+        "communication": 0.54,
+        "identity": 0.6,
+        "finance": 0.6217142857142857,
+        "digital": 0.6117333333333334,
+        "information": 0.68,
+        "ai_authority": 0.84,
+        "mobility": 0.3400000000000001,
+        "community": 0.52,
+        "psychological": 0.56
+      },
+      "floor": 0.3400000000000001,
+      "weakest": [
+        [
+          "mobility",
+          0.3400000000000001
+        ],
+        [
+          "shelter",
+          0.34199999999999997
+        ],
+        [
+          "supplies",
+          0.5036
+        ]
+      ]
+    },
+    {
+      "id": "compound_crisis",
+      "name": "Compound discontinuity",
+      "weight": 0.08,
+      "severity": 1.0,
+      "scores": {
+        "supplies": 0.34172857142857144,
+        "health": 0.4,
+        "shelter": 0.3989999999999999,
+        "communication": 0.36,
+        "identity": 0.4,
+        "finance": 0.3108571428571429,
+        "digital": 0.29600000000000004,
+        "information": 0.3400000000000001,
+        "ai_authority": 0.32000000000000006,
+        "mobility": 0.38,
+        "community": 0.41999999999999993,
+        "psychological": 0.38
+      },
+      "floor": 0.29600000000000004,
+      "weakest": [
+        [
+          "digital",
+          0.29600000000000004
+        ],
+        [
+          "finance",
+          0.3108571428571429
+        ],
+        [
+          "ai_authority",
+          0.32000000000000006
+        ]
+      ]
+    }
+  ],
+  "robustFloor": 0.29600000000000004,
+  "weightedFloor": 0.37912780952380953,
+  "weakestBase": [
+    [
+      "supplies",
+      0.8992857142857142
+    ],
+    [
+      "shelter",
+      0.95
+    ],
+    [
+      "finance",
+      0.9714285714285713
+    ],
+    [
+      "digital",
+      0.9866666666666667
+    ],
+    [
+      "health",
+      1.0
+    ],
+    [
+      "communication",
+      1.0
+    ],
+    [
+      "identity",
+      1.0
+    ],
+    [
+      "information",
+      1.0
+    ],
+    [
+      "ai_authority",
+      1.0
+    ],
+    [
+      "mobility",
+      1.0
+    ],
+    [
+      "community",
+      1.0
+    ],
+    [
+      "psychological",
+      1.0
+    ]
+  ],
+  "weakestWorld": {
+    "id": "compound_crisis",
+    "name": "Compound discontinuity",
+    "weight": 0.08,
+    "severity": 1.0,
+    "scores": {
+      "supplies": 0.34172857142857144,
+      "health": 0.4,
+      "shelter": 0.3989999999999999,
+      "communication": 0.36,
+      "identity": 0.4,
+      "finance": 0.3108571428571429,
+      "digital": 0.29600000000000004,
+      "information": 0.3400000000000001,
+      "ai_authority": 0.32000000000000006,
+      "mobility": 0.38,
+      "community": 0.41999999999999993,
+      "psychological": 0.38
+    },
+    "floor": 0.29600000000000004,
+    "weakest": [
+      [
+        "digital",
+        0.29600000000000004
+      ],
+      [
+        "finance",
+        0.3108571428571429
+      ],
+      [
+        "ai_authority",
+        0.32000000000000006
+      ]
+    ]
+  }
+}

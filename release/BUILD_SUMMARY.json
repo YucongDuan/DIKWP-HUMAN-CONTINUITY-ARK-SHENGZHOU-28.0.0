@@ -1,0 +1,34 @@
+{
+  "version": "28.0.0",
+  "sourceFiles": 60,
+  "sourceZip": "DIKWP_HUMAN_CONTINUITY_ARK_SHENGZHOU_28.0.0_source.zip",
+  "sourceZipSha256": "fd789b4d1d55230d3db30395db14b6d373b107748e67ea2f08a5d3e93698d241",
+  "sourceTar": "dikwp-shengzhou-28.0.0.tar.gz",
+  "sourceTarSha256": "97ac719096594a7169ee71224777298f74fcccddccfbfd1de2d7333f3fb0144b",
+  "wheel": "dikwp_shengzhou-28.0.0-py3-none-any.whl",
+  "wheelSha256": "04d4b3e1ed1f2ad581ecdd417f34ef22b3722c668d3a6a793a6616130efdc113",
+  "pyz": "SHENGZHOU_28.0.0.pyz",
+  "pyzSha256": "d565f3e32a12c9808571cf6407acb341cf6c372f9ce7118a59b69af57f56095b",
+  "standaloneClient": "SHENGZHOU_Personal_AGI_Continuity_Client_28.0.0.html",
+  "standaloneSha256": "eeacef32936821a0bd21441666aea646cfb73c1d865692d7a1af9abd6c3bbca3",
+  "reports": [
+    {
+      "file": "段玉聪_DIKWP生舟28.0_AGI时代普通个体生存连续性关键系统报告_CN_2026-09-06.docx",
+      "characters": 5749,
+      "words": 433,
+      "tables": 14,
+      "inlineShapes": 8,
+      "pages": 18
+    },
+    {
+      "file": "Yucong_Duan_DIKWP_SHENGZHOU_28.0_AGI_Era_Personal_Survival_Continuity_System_Report_EN_2026-09-06.docx",
+      "characters": 11741,
+      "words": 1591,
+      "tables": 14,
+      "inlineShapes": 8,
+      "pages": 18
+    }
+  ],
+  "completeArchive": "DIKWP_HUMAN_CONTINUITY_ARK_SHENGZHOU_28.0.0_Complete_Delivery.zip",
+  "completeSha256": "see COMPLETE_DELIVERY_SHA256.txt"
+}

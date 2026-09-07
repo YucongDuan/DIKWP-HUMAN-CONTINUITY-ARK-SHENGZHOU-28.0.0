@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/dikwp/shengzhou/28/profile.schema.json",
+  "title": "SHENGZHOU Personal Continuity Profile",
+  "type": "object",
+  "required": ["displayName", "householdSize"],
+  "properties": {
+    "displayName": {"type": "string", "minLength": 1},
+    "jurisdiction": {"type": "string"},
+    "language": {"type": "string"},
+    "householdSize": {"type": "integer", "minimum": 1, "maximum": 30},
+    "children": {"type": "integer", "minimum": 0, "maximum": 20},
+    "olderAdults": {"type": "integer", "minimum": 0, "maximum": 20},
+    "disabilityOrMedicalDependency": {"type": "boolean"},
+    "pets": {"type": "integer", "minimum": 0, "maximum": 20},
+    "homeType": {"type": "string"},
+    "transport": {"type": "string"},
+    "essentialMonthlyCost": {"type": "number", "minimum": 0}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/dikwp/shengzhou/28/receipt.schema.json",
+  "title": "SHENGZHOU Continuity Receipt",
+  "type": "object",
+  "required": ["id", "version", "time", "eventType", "payload", "previousHash", "hash"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "version": {"const": "28.0.0"},
+    "time": {"type": "string", "minLength": 10},
+    "eventType": {"type": "string", "minLength": 1},
+    "payload": {"type": "object"},
+    "previousHash": {"type": "string"},
+    "hash": {"type": "string", "minLength": 14}
+  },
+  "additionalProperties": false
+}

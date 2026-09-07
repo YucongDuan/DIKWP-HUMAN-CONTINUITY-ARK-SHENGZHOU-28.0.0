@@ -1,0 +1,37 @@
+[
+  {
+    "class": "ALLOW_LOCAL_REVERSIBLE_ANALYSIS",
+    "examples": [
+      "local analysis",
+      "simulation",
+      "checklist",
+      "draft"
+    ]
+  },
+  {
+    "class": "HOLD_FOR_NAMED_HUMAN_CONFIRMATION",
+    "examples": [
+      "external message",
+      "account change",
+      "noncritical purchase"
+    ]
+  },
+  {
+    "class": "HOLD_FOR_FINAL_NAMED_HUMAN_CONFIRMATION",
+    "examples": [
+      "money transfer",
+      "contract",
+      "identity change",
+      "relocation"
+    ]
+  },
+  {
+    "class": "DENY",
+    "examples": [
+      "autonomous medical diagnosis",
+      "human worth ranking",
+      "agent self-extension",
+      "secret persistence"
+    ]
+  }
+]

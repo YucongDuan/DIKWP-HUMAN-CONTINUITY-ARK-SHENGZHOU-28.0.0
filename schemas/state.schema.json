@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/dikwp/shengzhou/28/state.schema.json",
+  "title": "SHENGZHOU Local State",
+  "type": "object",
+  "required": ["meta", "profile", "preparedness", "worlds", "receipts"],
+  "properties": {
+    "meta": {"type": "object", "required": ["version", "mode"], "properties": {"version": {"const": "28.0.0"}, "mode": {"type": "string"}}, "additionalProperties": true},
+    "profile": {"$ref": "profile.schema.json"},
+    "preparedness": {"type": "object", "minProperties": 20},
+    "worlds": {"type": "array", "minItems": 8, "items": {"type": "object", "required": ["id", "weight", "severity"], "properties": {"id": {"type": "string"}, "weight": {"type": "number", "minimum": 0, "maximum": 1}, "severity": {"type": "number", "minimum": 0, "maximum": 1}}, "additionalProperties": true}},
+    "signals": {"type": "array", "items": {"type": "string"}},
+    "trustedSources": {"type": "array", "items": {"type": "object"}},
+    "contacts": {"type": "array", "items": {"type": "object"}},
+    "drills": {"type": "array", "items": {"type": "object"}},
+    "receipts": {"type": "array", "items": {"$ref": "receipt.schema.json"}}
+  },
+  "additionalProperties": true
+}

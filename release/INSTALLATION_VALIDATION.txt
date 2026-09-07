@@ -1,0 +1,47 @@
+WHEEL SUMMARY
+{
+  "name": "DIKWP HUMAN CONTINUITY ARK / SHENGZHOU",
+  "version": "28.0.0",
+  "mode": "SHENGZHOU28_AGI_DISCONTINUITY_LIFE_FLOOR_INFORMATION_INTEGRITY_DIGITAL_SOVEREIGNTY_COMMUNITY_RECOVERY_REALITY_CLOSURE",
+  "purpose": "Personal and household continuity under AGI-era disruptions",
+  "externalAutomaticActionAuthority": 0
+}
+
+WHEEL DEMO
+{
+  "out": "/tmp/shengzhou-wheel-f4bzduza/demo",
+  "robustFloor": 0.29600000000000004,
+  "weakestWorld": "compound_crisis",
+  "receipts": 1
+}
+
+WHEEL LEDGER
+{
+  "valid": true,
+  "count": 1,
+  "head": "945042395819e5f7c6d51c85e080e083520c390bab8778f1e46e66449c32b5de"
+}
+
+PYZ SUMMARY
+{
+  "name": "DIKWP HUMAN CONTINUITY ARK / SHENGZHOU",
+  "version": "28.0.0",
+  "mode": "SHENGZHOU28_AGI_DISCONTINUITY_LIFE_FLOOR_INFORMATION_INTEGRITY_DIGITAL_SOVEREIGNTY_COMMUNITY_RECOVERY_REALITY_CLOSURE",
+  "purpose": "Personal and household continuity under AGI-era disruptions",
+  "externalAutomaticActionAuthority": 0
+}
+
+PYZ DEMO
+{
+  "out": "/tmp/shengzhou-pyz-eq7zhnfx/demo",
+  "robustFloor": 0.29600000000000004,
+  "weakestWorld": "compound_crisis",
+  "receipts": 1
+}
+
+PYZ LEDGER
+{
+  "valid": true,
+  "count": 1,
+  "head": "abf81e89cc9a8ee81f0cd11d3dd2b26b64b35ee6b136de57b60d341f26322fdc"
+}

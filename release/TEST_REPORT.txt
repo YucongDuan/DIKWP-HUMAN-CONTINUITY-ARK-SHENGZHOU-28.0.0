@@ -1,0 +1,156 @@
+DIKWP SHENGZHOU 28.0.0 TEST REPORT
+
+JAVASCRIPT CORE
+ok 1 - version
+ok 2 - mode
+ok 3 - twelve domains
+ok 4 - eight worlds
+ok 5 - twelve signals
+ok 6 - default normalization
+ok 7 - domain score keys
+ok 8 - scores bounded
+ok 9 - demo stronger than default
+ok 10 - world result count
+ok 11 - world floors bounded
+ok 12 - robust floor is minimum
+ok 13 - trigger baseline
+ok 14 - trigger warning
+ok 15 - trigger continuity
+ok 16 - trigger protective isolation
+ok 17 - trigger life safety
+ok 18 - priority actions exist on default
+ok 19 - demo has fewer actions
+ok 20 - kit has ten items
+ok 21 - demo kit mostly ready
+ok 22 - message scan low
+ok 23 - message scan high
+ok 24 - message scan identifies secrecy
+ok 25 - local analysis allowed
+ok 26 - money transfer held
+ok 27 - medical automation denied
+ok 28 - human worth ranking denied
+ok 29 - critical action remains hold after mandate
+ok 30 - receipt can be created
+ok 31 - receipt chain verifies
+ok 32 - tampered receipt fails
+ok 33 - emergency card title
+ok 34 - emergency card has meeting points
+ok 35 - drill communication
+ok 36 - drill identity safe boundary
+ok 37 - continuity package version
+ok 38 - continuity package no external action
+ok 39 - text plan substantial
+ok 40 - stable stringify order
+ok 41 - hash deterministic
+ok 42 - high preparedness improves finance
+ok 43 - AI authority floor responds to controls
+ok 44 - dependents without routine reduce psychological score
+ok 45 - pets require pet plan
+ok 46 - world severity zero removes impact
+ok 47 - world severity one applies impact
+ok 48 - priority water action disappears at target
+ok 49 - message content not stored in scan output
+ok 50 - package carries receipts
+ok 51 - clamp lower
+ok 52 - clamp upper
+ok 53 - normalize preserves custom name
+ok 54 - unknown AI external action held
+ok 55 - activation mode has instructions
+ok 56 - all emergency modes have actions
+ok 57 - weighted floor bounded
+ok 58 - weakest world has three domains
+PASS 58 JavaScript tests
+
+PYTHON CORE
+test_demo_is_stronger (test_core.ShengzhouCoreTests.test_demo_is_stronger) ... ok
+test_digest_is_deterministic (test_core.ShengzhouCoreTests.test_digest_is_deterministic) ... ok
+test_domains (test_core.ShengzhouCoreTests.test_domains) ... ok
+test_mode (test_core.ShengzhouCoreTests.test_mode) ... ok
+test_package (test_core.ShengzhouCoreTests.test_package) ... ok
+test_receipt_chain (test_core.ShengzhouCoreTests.test_receipt_chain) ... ok
+test_receipt_tamper (test_core.ShengzhouCoreTests.test_receipt_tamper) ... ok
+test_robust_floor (test_core.ShengzhouCoreTests.test_robust_floor) ... ok
+test_scores_bounded (test_core.ShengzhouCoreTests.test_scores_bounded) ... ok
+test_severity_zero (test_core.ShengzhouCoreTests.test_severity_zero) ... ok
+test_version (test_core.ShengzhouCoreTests.test_version) ... ok
+test_world_count (test_core.ShengzhouCoreTests.test_world_count) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+OK
+
+SCHEMA
+/mnt/data/DIKWP_HUMAN_CONTINUITY_ARK_SHENGZHOU_28.0.0/scripts/validate_schemas.py:7: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+  from jsonschema import Draft202012Validator, RefResolver
+{
+  "version": "28.0.0",
+  "checks": [
+    {
+      "schema": "state.schema.json",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "schema": "package.schema.json",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "schema": "profile.schema.json",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "schema": "receipt.schema.json",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "passed": true
+}
+
+STATIC SCAN
+{
+  "version": "28.0.0",
+  "filesScanned": 6,
+  "findings": [],
+  "passed": true
+}
+
+BROWSER QA
+{
+  "version": "28.0.0",
+  "errors": [],
+  "runtimeRequests": [],
+  "checks": {
+    "title": "生舟 28.0 | AGI时代个人生存连续性系统",
+    "views": 15,
+    "navButtons": 15,
+    "metricCards": 5,
+    "priorityActions": 6,
+    "profileEdit": true,
+    "worldCards": 8,
+    "worldEdit": true,
+    "floorCards": 12,
+    "kitItems": 10,
+    "messageScan": true,
+    "addSource": true,
+    "aiFirewall": true,
+    "addContact": true,
+    "activationMode": true,
+    "drillGenerated": true,
+    "drillSaved": true,
+    "planLength": true,
+    "ledger": true,
+    "receiptCount": true,
+    "mobileMenu": true
+  },
+  "mobileErrors": [],
+  "mobileRuntimeRequests": [],
+  "passed": true
+}
+
+SOURCE ARCHIVE RETEST: PASS
+WHEEL FRESH ENVIRONMENT: PASS
+PYZ EXECUTION: PASS

@@ -1,0 +1,32 @@
+[
+  {
+    "level": 0,
+    "name_en": "Baseline readiness",
+    "name_zh": "基线准备",
+    "rule": "No credible disruption signal"
+  },
+  {
+    "level": 1,
+    "name_en": "Verify and prepare",
+    "name_zh": "核验与准备",
+    "rule": "Conflicting sources or suspicious low-level request"
+  },
+  {
+    "level": 2,
+    "name_en": "Continuity mode",
+    "name_zh": "连续性模式",
+    "rule": "Multiple service, communications or fraud signals"
+  },
+  {
+    "level": 3,
+    "name_en": "Protective isolation",
+    "name_zh": "保护性隔离",
+    "rule": "Identity takeover, agent overreach or material account compromise"
+  },
+  {
+    "level": 4,
+    "name_en": "Life safety and relocation",
+    "name_zh": "生命安全与迁移",
+    "rule": "Immediate life threat, official evacuation or severe compound failure"
+  }
+]

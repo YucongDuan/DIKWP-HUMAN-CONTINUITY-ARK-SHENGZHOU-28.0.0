@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "version": "28.0.0",
+    "mode": "SHENGZHOU28_AGI_DISCONTINUITY_LIFE_FLOOR_INFORMATION_INTEGRITY_DIGITAL_SOVEREIGNTY_COMMUNITY_RECOVERY_REALITY_CLOSURE",
+    "createdAt": "2026-09-06T10:57:07.315676Z",
+    "updatedAt": "2026-09-06T10:57:07.315824Z"
+  },
+  "profile": {
+    "displayName": "Lin Household — synthetic example",
+    "householdSize": 3,
+    "children": 1,
+    "olderAdults": 0,
+    "disabilityOrMedicalDependency": false,
+    "pets": 1,
+    "jurisdiction": "Local jurisdiction"
+  },
+  "preparedness": {
+    "waterDays": 3,
+    "foodDays": 12,
+    "medicationDays": 14,
+    "hygieneDays": 7,
+    "kitCompletion": 0.74,
+    "medicalSummary": true,
+    "firstAid": true,
+    "prescriptionCopies": true,
+    "careBackup": true,
+    "professionalSupportContact": true,
+    "powerBackupHours": 18,
+    "shelterPlan": true,
+    "smokeAlarm": true,
+    "utilityShutoffKnowledge": true,
+    "alternativeTemperaturePlan": true,
+    "trustedContacts": 4,
+    "outOfAreaContact": true,
+    "meetingPoints": 2,
+    "offlineRadio": true,
+    "paperContacts": true,
+    "twoChannelVerification": true,
+    "documentCopies": true,
+    "recoveryCodes": true,
+    "cleanDevicePlan": true,
+    "officialAccountContacts": true,
+    "secureStorage": true,
+    "cashDays": 5,
+    "reserveDays": 45,
+    "paymentRails": 3,
+    "incomeSources": 2,
+    "billList": true,
+    "fraudFreezePlan": true,
+    "mfaCoverage": 0.92,
+    "passwordManager": true,
+    "offlineBackups": 2,
+    "softwareUpdates": true,
+    "accountRecovery": true,
+    "oauthReview": true,
+    "officialSources": 5,
+    "twoSourceRule": true,
+    "pauseBeforeShare": true,
+    "rumorLog": true,
+    "offlineSourceList": true,
+    "sourceDiversity": true,
+    "humanConfirmCritical": true,
+    "noAutoTransfer": true,
+    "noAutoContract": true,
+    "revocationPlan": true,
+    "agentInventory": true,
+    "leastPrivilege": true,
+    "goBag": true,
+    "routes": 2,
+    "transportBackup": true,
+    "destinationPlan": true,
+    "petPlan": true,
+    "mutualAidContacts": 4,
+    "vulnerableCheck": true,
+    "skillOffer": true,
+    "sharedResources": true,
+    "localOrganizations": true,
+    "transferableSkills": 4,
+    "workEvidence": 3,
+    "ninetyDayIncomePlan": true,
+    "localServiceSkill": true,
+    "checkInPeople": 3,
+    "sleepPlan": true,
+    "calmProtocol": true,
+    "mediaLimit": true,
+    "dependentRoutine": true,
+    "drillsCompleted": 2
+  },
+  "worlds": [
+    {
+      "id": "rapid_automation",
+      "weight": 0.16,
+      "severity": 1.0
+    },
+    {
+      "id": "ai_fraud",
+      "weight": 0.14,
+      "severity": 1.0
+    },
+    {
+      "id": "cyber_identity",
+      "weight": 0.14,
+      "severity": 1.0
+    },
+    {
+      "id": "cloud_payment_outage",
+      "weight": 0.13,
+      "severity": 1.0
+    },
+    {
+      "id": "essential_services",
+      "weight": 0.13,
+      "severity": 1.0
+    },
+    {
+      "id": "autonomous_agent_incident",
+      "weight": 0.12,
+      "severity": 1.0
+    },
+    {
+      "id": "local_relocation",
+      "weight": 0.1,
+      "severity": 1.0
+    },
+    {
+      "id": "compound_crisis",
+      "weight": 0.08,
+      "severity": 1.0
+    }
+  ],
+  "signals": [],
+  "trustedSources": [],
+  "contacts": [],
+  "drills": [],
+  "receipts": [
+    {
+      "id": "rcpt-000001",
+      "version": "28.0.0",
+      "time": "2026-09-06T10:57:07.315830Z",
+      "eventType": "DEMO_INITIALIZED",
+      "payload": {
+        "synthetic": true
+      },
+      "previousHash": "GENESIS",
+      "hash": "dae07faec622f27b031c15b6272e33608b732dceb555e74f5229aa23ab0d996b"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": "28.0.0",
+  "documents": [
+    {
+      "file": "段玉聪_DIKWP生舟28.0_AGI时代普通个体生存连续性关键系统报告_CN_2026-09-06.docx",
+      "characters": 5749,
+      "words": 433,
+      "tables": 14,
+      "inlineShapes": 8,
+      "pages": 18
+    },
+    {
+      "file": "Yucong_Duan_DIKWP_SHENGZHOU_28.0_AGI_Era_Personal_Survival_Continuity_System_Report_EN_2026-09-06.docx",
+      "characters": 11741,
+      "words": 1591,
+      "tables": 14,
+      "inlineShapes": 8,
+      "pages": 18
+    }
+  ],
+  "visualInspection": {
+    "allPagesInspected": true,
+    "clipping": 0,
+    "overlap": 0,
+    "missingGlyphs": 0,
+    "unexpectedBlankPages": 0
+  },
+  "a11y": {
+    "cn": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "en": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
+  },
+  "passed": true
+}

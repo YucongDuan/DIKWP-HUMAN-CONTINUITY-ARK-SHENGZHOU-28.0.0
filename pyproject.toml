@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dikwp-shengzhou"
+version = "28.0.0"
+description = "Offline-first personal continuity and AGI-disruption preparedness toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [{name = "Yucong Duan"}]
+dependencies = []
+
+[project.scripts]
+shengzhou28 = "shengzhou.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+
+[tool.setuptools.packages.find]
+where = ["python"]

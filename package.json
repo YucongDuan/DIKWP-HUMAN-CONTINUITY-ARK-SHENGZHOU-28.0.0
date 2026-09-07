@@ -1,0 +1,12 @@
+{
+  "name": "dikwp-human-continuity-ark-shengzhou",
+  "version": "28.0.0",
+  "private": true,
+  "description": "Offline-first personal survival continuity client for AGI-era disruptions",
+  "scripts": {
+    "test": "node tests/test_core.js",
+    "build": "python scripts/build_standalone.py",
+    "qa": "python tests/browser_qa.py"
+  },
+  "license": "Apache-2.0"
+}

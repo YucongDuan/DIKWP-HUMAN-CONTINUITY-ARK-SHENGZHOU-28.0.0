@@ -1,0 +1,12 @@
+DIKWP HUMAN CONTINUITY ARK / SHENGZHOU 28.0.0
+STATUS: RELEASE-CANDIDATE COMPLETE
+Maturity: Alpha reference implementation and pilot blueprint
+Core tests: 70 passed
+Schemas: 4 passed
+Browser: passed; default network requests = 0
+Wheel: installed and executed in a fresh virtual environment
+PYZ: executed and verified
+Word reports: 18 Chinese pages + 18 English pages, all visually inspected
+Accessibility: 0 high, 0 medium, 0 low findings in both reports
+External automatic action authority: 0
+External automatic value transfer authority: 0

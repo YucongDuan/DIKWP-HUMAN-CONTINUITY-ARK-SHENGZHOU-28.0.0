@@ -1,0 +1,39 @@
+{
+  "system": "DIKWP HUMAN CONTINUITY ARK / SHENGZHOU",
+  "version": "28.0.0",
+  "mode": "SHENGZHOU28_AGI_DISCONTINUITY_LIFE_FLOOR_INFORMATION_INTEGRITY_DIGITAL_SOVEREIGNTY_COMMUNITY_RECOVERY_REALITY_CLOSURE",
+  "generatedAt": "2026-09-06T11:10:06.738547+00:00",
+  "tests": {
+    "javascript": 58,
+    "python": 12,
+    "totalCore": 70,
+    "schemaCases": 4,
+    "browserChecks": 20,
+    "sourceArchiveRetest": true
+  },
+  "checks": {
+    "clientOffline": true,
+    "browser": true,
+    "schema": true,
+    "staticScan": true,
+    "wheelFreshEnvironment": true,
+    "pyz": true,
+    "ledger": true,
+    "wordRender": true,
+    "a11y": true
+  },
+  "syntheticDemo": {
+    "robustFloor": 0.29600000000000004,
+    "weakestWorld": "compound_crisis",
+    "claimBoundary": "Synthetic deterministic reference behavior; not a real-world survival probability."
+  },
+  "hardInvariants": {
+    "externalAutomaticActionAuthority": 0,
+    "externalAutomaticValueTransferAuthority": 0,
+    "agentSelfAuthorization": 0,
+    "humanWorthRankingAuthority": 0,
+    "humanFinalConfirmationForIrreversibleActions": 1,
+    "realityContactRequired": 1
+  },
+  "maturity": "Alpha reference implementation and pilot blueprint"
+}

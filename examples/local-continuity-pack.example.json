@@ -1,0 +1,53 @@
+{
+  "version": "28.0.0",
+  "jurisdiction": "REPLACE_WITH_LOCAL_AREA",
+  "verifiedAt": "YYYY-MM-DD",
+  "maintainer": "NAMED_PERSON_OR_ORGANIZATION",
+  "officialAlerts": [
+    {
+      "name": "Local emergency management",
+      "channel": "official website/app/phone",
+      "verified": false
+    }
+  ],
+  "emergencyServices": [
+    {
+      "purpose": "life safety",
+      "number": "VERIFY LOCALLY"
+    }
+  ],
+  "health": [
+    {
+      "purpose": "urgent health advice or poison control",
+      "contact": "VERIFY LOCALLY"
+    }
+  ],
+  "identityRecovery": [
+    {
+      "service": "national/local identity",
+      "contact": "VERIFY LOCALLY"
+    }
+  ],
+  "financialRecovery": [
+    {
+      "service": "primary bank/payment provider",
+      "contact": "VERIFY FROM OFFICIAL SOURCE"
+    }
+  ],
+  "socialSupport": [
+    {
+      "purpose": "food/housing/income continuity",
+      "contact": "VERIFY LOCALLY"
+    }
+  ],
+  "accessibilityAndLanguage": [
+    {
+      "service": "accessible emergency support",
+      "contact": "VERIFY LOCALLY"
+    }
+  ],
+  "boundaries": [
+    "Do not copy emergency numbers from another jurisdiction",
+    "Distinguish official, provider and community sources"
+  ]
+}

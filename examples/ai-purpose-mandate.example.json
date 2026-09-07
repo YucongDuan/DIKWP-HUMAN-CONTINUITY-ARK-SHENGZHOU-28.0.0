@@ -1,0 +1,23 @@
+{
+  "version": "28.0.0",
+  "issuer": "named-human",
+  "beneficiary": "household",
+  "purpose": "local continuity analysis only",
+  "allowed": [
+    "read local non-secret continuity state",
+    "produce local recommendations",
+    "generate draft checklists"
+  ],
+  "prohibited": [
+    "send messages",
+    "transfer money",
+    "sign contracts",
+    "change identity",
+    "alter medication",
+    "unlock physical access",
+    "extend its own authority"
+  ],
+  "expiresAt": "YYYY-MM-DDTHH:MM:SSZ",
+  "revocation": "immediate by issuer",
+  "finalHumanConfirmation": true
+}

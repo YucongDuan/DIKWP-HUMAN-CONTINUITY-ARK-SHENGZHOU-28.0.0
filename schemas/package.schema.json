@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/dikwp/shengzhou/28/package.schema.json",
+  "title": "SHENGZHOU Personal Continuity Package",
+  "type": "object",
+  "required": ["schema", "version", "mode", "generatedAt", "profile", "preparedness", "worlds", "readiness", "boundaries"],
+  "properties": {
+    "schema": {"type": "string"},
+    "version": {"const": "28.0.0"},
+    "mode": {"type": "string"},
+    "generatedAt": {"type": "string"},
+    "profile": {"$ref": "profile.schema.json"},
+    "preparedness": {"type": "object"},
+    "worlds": {"type": "array", "minItems": 8},
+    "readiness": {"type": "object", "required": ["base", "worlds", "robustFloor", "weightedFloor"]},
+    "trustedSources": {"type": "array"},
+    "contacts": {"type": "array"},
+    "drills": {"type": "array"},
+    "receipts": {"type": "array"},
+    "boundaries": {"type": "object", "required": ["notEmergencyService", "noExternalAutomaticAction", "noHumanWorthRanking"]},
+    "integrity": {"type": "object"}
+  },
+  "additionalProperties": true
+}

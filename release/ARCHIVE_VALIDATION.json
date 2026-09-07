@@ -1,0 +1,29 @@
+{
+  "version": "28.0.0",
+  "sourceZip": {
+    "file": "DIKWP_HUMAN_CONTINUITY_ARK_SHENGZHOU_28.0.0_source.zip",
+    "entries": 60,
+    "integrity": true
+  },
+  "sourceTar": {
+    "file": "dikwp-shengzhou-28.0.0.tar.gz",
+    "readable": true
+  },
+  "wheel": {
+    "file": "dikwp_shengzhou-28.0.0-py3-none-any.whl",
+    "freshEnvironmentExecution": true
+  },
+  "pyz": {
+    "file": "SHENGZHOU_28.0.0.pyz",
+    "execution": true
+  },
+  "wordReports": {
+    "count": 2,
+    "renderedPages": 36,
+    "visuallyInspected": true
+  },
+  "completeZip": {
+    "file": "DIKWP_HUMAN_CONTINUITY_ARK_SHENGZHOU_28.0.0_Complete_Delivery.zip",
+    "integrityCheckedAfterBuild": true
+  }
+}
