@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#07131a">
   <meta name="description" content="DIKWP HUMAN CONTINUITY ARK / SHENGZHOU 28.0.0 — 面向AGI时代失控与系统性中断的个人和家庭生存连续性客户端。">
-  <title>生舟 28.0 | AGI时代个人生存连续性系统</title>
+  <title>SHENGZHOU 28.0 | Personal Continuity in the AGI Era</title>
   <style>
 :root{
   --bg:#071219;--bg2:#0b1b24;--panel:#0f2530;--panel2:#122d39;--line:#264553;
@@ -24,49 +24,51 @@ button,input,textarea,select{font:inherit}button{color:inherit}.app-shell{min-he
 @media print{body{background:white;color:#111}.sidebar,.topbar,.no-print,.toast{display:none!important}.app-shell{display:block}.content{max-width:none;padding:0}.view{display:none!important}.view.active{display:block!important}.panel,.hero{box-shadow:none;background:white;color:#111;border-color:#aaa}.print-card{display:block!important}.print-card~*{display:none!important}.print-card h3{color:#111}.print-card .card-block{break-inside:avoid}.boundary-banner{color:#111;background:#fff;border-color:#aaa}}
 
 </style>
+<meta name="author" content="Yucong Duan (段玉聪)">
 </head>
 <body>
 <div class="app-shell">
-  <aside class="sidebar" id="sidebar" aria-label="主导航">
+  <aside class="sidebar" id="sidebar" aria-label="Main navigation">
     <div class="brand">
       <div class="brand-mark" aria-hidden="true">舟</div>
-      <div><h1>生舟 28.0</h1><small>Human Continuity Ark</small></div>
+      <div><h1>SHENGZHOU 28.0</h1>
+<p data-project-creator="true" style="font-size:.9rem;line-height:1.5;opacity:.85;margin:.5rem 0 1rem">Created by Yucong Duan (段玉聪).</p><small>Human Continuity Ark</small></div>
     </div>
     <div class="mode-chip">MESH 9.6 · LOCAL FIRST</div>
     <nav id="nav" class="nav">
-      <button class="active" data-view="dashboard"><span>01</span><b>生存驾驶舱</b></button>
-      <button data-view="passport"><span>02</span><b>家庭连续性护照</b></button>
-      <button data-view="worlds"><span>03</span><b>八个失效世界</b></button>
-      <button data-view="floors"><span>04</span><b>十二项生存底线</b></button>
-      <button data-view="kit"><span>05</span><b>72小时与30天准备</b></button>
-      <button data-view="health"><span>06</span><b>健康与照护连续性</b></button>
-      <button data-view="trust"><span>07</span><b>家庭通信与防伪</b></button>
-      <button data-view="money"><span>08</span><b>货币与收入连续性</b></button>
-      <button data-view="digital"><span>09</span><b>数字、身份与备份</b></button>
-      <button data-view="information"><span>10</span><b>信息验证与谣言防护</b></button>
-      <button data-view="authority"><span>11</span><b>AI权限防火墙</b></button>
-      <button data-view="mobility"><span>12</span><b>迁移与社区互助</b></button>
-      <button data-view="activation"><span>13</span><b>失效触发与应急模式</b></button>
-      <button data-view="drills"><span>14</span><b>演练与现实接触</b></button>
-      <button data-view="export"><span>15</span><b>回执、打印与导出</b></button>
+      <button class="active" data-view="dashboard"><span>01</span><b>Continuity dashboard</b></button>
+      <button data-view="passport"><span>02</span><b>Household continuity passport</b></button>
+      <button data-view="worlds"><span>03</span><b>Eight failure scenarios</b></button>
+      <button data-view="floors"><span>04</span><b>Twelve essential floors</b></button>
+      <button data-view="kit"><span>05</span><b>72-hour and 30-day preparation</b></button>
+      <button data-view="health"><span>06</span><b>Health and care continuity</b></button>
+      <button data-view="trust"><span>07</span><b>Family communication and impersonation checks</b></button>
+      <button data-view="money"><span>08</span><b>Money and income continuity</b></button>
+      <button data-view="digital"><span>09</span><b>Digital access, identity and backups</b></button>
+      <button data-view="information"><span>10</span><b>Information verification and rumor checks</b></button>
+      <button data-view="authority"><span>11</span><b>AI permission firewall</b></button>
+      <button data-view="mobility"><span>12</span><b>Relocation and community support</b></button>
+      <button data-view="activation"><span>13</span><b>Failure triggers and emergency mode</b></button>
+      <button data-view="drills"><span>14</span><b>Practice and real-world checks</b></button>
+      <button data-view="export"><span>15</span><b>Receipts, print and export</b></button>
     </nav>
     <div class="sidebar-note">
-      完全离线 · 不需要账号 · 不调用模型API<br>
-      不存密码、验证码、私钥或完整证件
+      Fully offline · No account · No model API<br>
+      Do not store passwords, verification codes, private keys or complete identity documents
     </div>
   </aside>
 
   <main class="main">
     <header class="topbar">
       <div class="top-title">
-        <strong id="householdTitle">我的家庭</strong>
-        <span>准备的是功能连续性，不是押注单一末日预言</span>
+        <strong id="householdTitle">My household</strong>
+        <span>Prepare for loss of essential functions across multiple scenarios</span>
       </div>
       <div class="toolbar no-print">
-        <button class="btn mobile-only" id="mobileMenu">菜单</button>
-        <button class="btn" id="loadDemo">载入合成示例</button>
-        <button class="btn" id="saveLocal">本地保存</button>
-        <button class="btn primary" id="recompute">重新计算</button>
+        <button class="btn mobile-only" id="mobileMenu">Menu</button>
+        <button class="btn" id="loadDemo">Load synthetic example</button>
+        <button class="btn" id="saveLocal">Save locally</button>
+        <button class="btn primary" id="recompute">Recalculate</button>
       </div>
     </header>
 
@@ -74,12 +76,12 @@ button,input,textarea,select{font:inherit}button{color:inherit}.app-shell{min-he
       <section id="dashboard" class="view active">
         <div class="hero">
           <div class="eyebrow">AGI DISCONTINUITY · CIVILIAN CONTINUITY · REALITY CONTACT</div>
-          <h2>当模型、平台、支付、身份与公共服务同时变化时，普通人仍要能够活下去、核验事实、保护家人并重新开始。</h2>
-          <p>生舟不预测某一天“AGI必然失控”。它把风险转换成可观察的功能失效：收入骤降、深度伪造诈骗、账号接管、通信与支付中断、药物或能源短缺、自动化越权、局部迁移与复合危机，并为每一类失效建立个人可执行的准备、触发、行动和修订闭环。</p>
+          <h2>When models, platforms, payments, identity systems and public services change together, people still need to meet essential needs, verify facts, protect their families and recover.</h2>
+          <p>SHENGZHOU organizes observable failures—income loss, impersonation fraud, account takeover, communication and payment outages, medicine or energy shortages, unauthorized automation, displacement and compound crises—into practical preparation, triggers, actions and review. It does not predict a date for loss of AGI control.</p>
           <div class="hero-actions no-print">
-            <button class="btn primary" data-jump="passport">建立我的护照</button>
-            <button class="btn" data-jump="activation">启动失效判断</button>
-            <button class="btn" data-jump="export">打印离线卡</button>
+            <button class="btn primary" data-jump="passport">Create my passport</button>
+            <button class="btn" data-jump="activation">Assess a disruption</button>
+            <button class="btn" data-jump="export">Print offline card</button>
           </div>
         </div>
 
@@ -87,297 +89,297 @@ button,input,textarea,select{font:inherit}button{color:inherit}.app-shell{min-he
 
         <div class="grid two">
           <article class="panel">
-            <div class="panel-head"><div><span class="kicker">当前最弱处</span><h3>优先准备行动</h3></div><button class="text-btn no-print" data-jump="floors">查看全部</button></div>
+            <div class="panel-head"><div><span class="kicker">Current weakest point</span><h3>Priority preparations</h3></div><button class="text-btn no-print" data-jump="floors">View all</button></div>
             <div id="priorityActions" class="action-list"></div>
           </article>
           <article class="panel">
-            <div class="panel-head"><div><span class="kicker">失效世界</span><h3>最坏情景底线</h3></div><button class="text-btn no-print" data-jump="worlds">调整情景</button></div>
+            <div class="panel-head"><div><span class="kicker">Failure scenarios</span><h3>Worst-scenario floor</h3></div><button class="text-btn no-print" data-jump="worlds">Adjust scenarios</button></div>
             <div id="worldPressure" class="bar-list"></div>
           </article>
         </div>
 
         <div class="grid two">
           <article class="panel accent-panel">
-            <span class="kicker">立即模式</span>
-            <h3 id="modeName">基线准备</h3>
+            <span class="kicker">Immediate mode</span>
+            <h3 id="modeName">Baseline preparation</h3>
             <p id="modeInstruction"></p>
             <div id="modeActions" class="compact-list"></div>
-            <button class="btn danger-outline no-print" data-jump="activation">检查当前信号</button>
+            <button class="btn danger-outline no-print" data-jump="activation">Check current signals</button>
           </article>
           <article class="panel">
-            <span class="kicker">四个时间尺度</span>
-            <h3>不是囤积恐惧，而是建立连续性</h3>
+            <span class="kicker">Four time horizons</span>
+            <h3>Build practical continuity</h3>
             <div class="timeline-mini">
-              <div><b>0–10分钟</b><span>停止不可逆动作；核验；确认人员与医疗依赖。</span></div>
-              <div><b>10–60分钟</b><span>通信树、干净设备、现金与文件、官方信息。</span></div>
-              <div><b>1–72小时</b><span>水、食物、药物、能源、会合与互助。</span></div>
-              <div><b>30–180天</b><span>收入、技能、迁移、公共服务与社会关系重建。</span></div>
+              <div><b>0–10 minutes</b><span>Pause irreversible actions; verify the situation; check people and medical dependencies.</span></div>
+              <div><b>10–60 minutes</b><span>Contact tree, trusted device, cash and documents, official information.</span></div>
+              <div><b>1–72 hours</b><span>Water, food, medicines, energy, meeting points and mutual aid.</span></div>
+              <div><b>30–180 days</b><span>Rebuild income, skills, mobility, public-service access and social support.</span></div>
             </div>
           </article>
         </div>
-        <div class="boundary-banner"><b>边界：</b>本系统不是应急服务、医疗器械、金融产品或生存保证。真实紧急情况中，以当地官方预警、应急服务和专业人员的指示为准。</div>
+        <div class="boundary-banner"><b>Scope:</b>This tool is not an emergency service, medical device, financial product or survival guarantee. In an emergency, follow verified local alerts and instructions from emergency services and qualified professionals.</div>
       </section>
 
       <section id="passport" class="view">
-        <div class="section-head"><div><span class="kicker">PERSONAL CONTINUITY PASSPORT</span><h2>家庭连续性护照</h2><p>先明确谁需要保护、哪些能力不能归零，再讨论任何技术或资产方案。</p></div></div>
+        <div class="section-head"><div><span class="kicker">PERSONAL CONTINUITY PASSPORT</span><h2>Household continuity passport</h2><p>Identify who needs protection and which essential capabilities must remain available before considering technology or asset plans.</p></div></div>
         <div class="panel">
           <form id="profileForm" class="form-grid">
-            <div class="field"><label>显示名称</label><input id="p_displayName" autocomplete="off"></div>
-            <div class="field"><label>司法辖区/所在地</label><input id="p_jurisdiction" placeholder="请以后核验本地官方来源"></div>
-            <div class="field"><label>主要语言</label><input id="p_language"></div>
-            <div class="field"><label>住房类型</label><input id="p_homeType"></div>
-            <div class="field"><label>家庭人数</label><input id="p_householdSize" type="number" min="1" max="30"></div>
-            <div class="field"><label>儿童人数</label><input id="p_children" type="number" min="0" max="20"></div>
-            <div class="field"><label>老年成员人数</label><input id="p_olderAdults" type="number" min="0" max="20"></div>
-            <div class="field"><label>宠物数量</label><input id="p_pets" type="number" min="0" max="20"></div>
-            <label class="check-row full"><input id="p_disabilityOrMedicalDependency" type="checkbox">家庭中有人依赖持续药物、医疗设备、无障碍协助或特殊照护</label>
-            <div class="field"><label>主要交通方式</label><input id="p_transport"></div>
-            <div class="field"><label>每月必要支出（本地货币）</label><input id="p_essentialMonthlyCost" type="number" min="0" step="10"></div>
-            <div class="field"><label>本地应急号码</label><input id="p_localEmergencyNumber" placeholder="请从本地官方来源核验"></div>
-            <div class="field"><label>最近安全地点</label><input id="p_nearestSafePlace"></div>
-            <div class="field"><label>外地中继联系人姓名</label><input id="p_outOfAreaContactName"></div>
-            <div class="field"><label>外地中继联系方式</label><input id="p_outOfAreaContactPhone" placeholder="可只写纸质存放位置"></div>
-            <div class="field"><label>近距离会合点</label><input id="p_meetingPointNear"></div>
-            <div class="field"><label>远距离会合点</label><input id="p_meetingPointFar"></div>
-            <div class="field full"><label>家庭核验提示</label><textarea id="p_verificationHint" rows="2"></textarea><small>不要在本客户端保存真实口令，只记录“口令放在哪里”或核验流程。</small></div>
-            <div class="field full"><label>其他约束与责任</label><textarea id="p_notes" rows="3" placeholder="例如照护、无障碍、宗教饮食、法律身份、工作地点、学校接送等"></textarea></div>
+            <div class="field"><label>Display name</label><input id="p_displayName" autocomplete="off"></div>
+            <div class="field"><label>Jurisdiction or location</label><input id="p_jurisdiction" placeholder="Verify local official sources"></div>
+            <div class="field"><label>Primary language</label><input id="p_language"></div>
+            <div class="field"><label>Housing type</label><input id="p_homeType"></div>
+            <div class="field"><label>Household size</label><input id="p_householdSize" type="number" min="1" max="30"></div>
+            <div class="field"><label>Number of children</label><input id="p_children" type="number" min="0" max="20"></div>
+            <div class="field"><label>Number of older household members</label><input id="p_olderAdults" type="number" min="0" max="20"></div>
+            <div class="field"><label>Number of pets</label><input id="p_pets" type="number" min="0" max="20"></div>
+            <label class="check-row full"><input id="p_disabilityOrMedicalDependency" type="checkbox">Someone depends on continuing medication, medical equipment, accessibility support or specialist care</label>
+            <div class="field"><label>Primary transport</label><input id="p_transport"></div>
+            <div class="field"><label>Monthly essential spending, local currency</label><input id="p_essentialMonthlyCost" type="number" min="0" step="10"></div>
+            <div class="field"><label>Local emergency number</label><input id="p_localEmergencyNumber" placeholder="Verify with a local official source"></div>
+            <div class="field"><label>Nearest safe location</label><input id="p_nearestSafePlace"></div>
+            <div class="field"><label>Out-of-area contact name</label><input id="p_outOfAreaContactName"></div>
+            <div class="field"><label>Out-of-area contact details</label><input id="p_outOfAreaContactPhone" placeholder="You may record only where the paper copy is kept"></div>
+            <div class="field"><label>Nearby meeting point</label><input id="p_meetingPointNear"></div>
+            <div class="field"><label>Distant meeting point</label><input id="p_meetingPointFar"></div>
+            <div class="field full"><label>Family identity-check reminder</label><textarea id="p_verificationHint" rows="2"></textarea><small>Record where a secret phrase is kept or how to verify identity; do not store the actual secret here.</small></div>
+            <div class="field full"><label>Other constraints and responsibilities</label><textarea id="p_notes" rows="3" placeholder="For example: care, accessibility, dietary needs, legal status, workplace or school pickup"></textarea></div>
           </form>
         </div>
-        <div class="panel"><h3>护照完整度</h3><div id="passportStatus"></div></div>
+        <div class="panel"><h3>Passport completeness</h3><div id="passportStatus"></div></div>
       </section>
 
       <section id="worlds" class="view">
-        <div class="section-head"><div><span class="kicker">PLURAL WORLD MODELS</span><h2>八个非同构失效世界</h2><p>权重只是规划假设，不是已经校准的发生概率。保留不同失败结构，可以防止把全部准备押在一种叙事上。</p></div></div>
+        <div class="section-head"><div><span class="kicker">PLURAL WORLD MODELS</span><h2>Eight structurally different failure scenarios</h2><p>Weights are planning assumptions, not calibrated probabilities. Distinct failure scenarios help avoid relying on a single forecast.</p></div></div>
         <div id="worldCards" class="grid two"></div>
       </section>
 
       <section id="floors" class="view">
-        <div class="section-head"><div><span class="kicker">NON-COMPENSATORY FLOORS</span><h2>十二项生存连续性底线</h2><p>高收入不能抵消药物断供；强网络不能抵消身份锁死；平均准备度不能掩盖最弱能力归零。</p></div></div>
+        <div class="section-head"><div><span class="kicker">NON-COMPENSATORY FLOORS</span><h2>Twelve essential continuity floors</h2><p>Income cannot replace unavailable medication; connectivity cannot restore a locked identity. Keep the weakest essential capability visible.</p></div></div>
         <div id="floorCards" class="grid three"></div>
-        <div class="panel"><h3>当前优先行动序列</h3><div id="allActions" class="action-list"></div></div>
+        <div class="panel"><h3>Current action priorities</h3><div id="allActions" class="action-list"></div></div>
       </section>
 
       <section id="kit" class="view">
-        <div class="section-head"><div><span class="kicker">72 HOURS → 30 DAYS</span><h2>基础物资与家庭准备</h2><p>先建立短期生存，再建立不依赖单一支付、云服务或供应链的30天连续性。</p></div></div>
+        <div class="section-head"><div><span class="kicker">72 HOURS → 30 DAYS</span><h2>Basic supplies and household preparation</h2><p>Establish short-term essentials, then plan 30-day continuity without relying on a single payment channel, cloud service or supply chain.</p></div></div>
         <div class="grid two">
           <div class="panel">
-            <h3>数量与时间</h3>
+            <h3>Quantities and duration</h3>
             <div class="form-grid compact">
-              <div class="field"><label>饮水可用天数</label><input data-prep="waterDays" type="number" min="0" max="60" step="0.5"></div>
-              <div class="field"><label>食物可用天数</label><input data-prep="foodDays" type="number" min="0" max="180" step="0.5"></div>
-              <div class="field"><label>卫生用品天数</label><input data-prep="hygieneDays" type="number" min="0" max="90"></div>
-              <div class="field"><label>安全备用电力小时</label><input data-prep="powerBackupHours" type="number" min="0" max="720"></div>
-              <div class="field full"><label>应急包完成度</label><div class="range-row"><input data-prep="kitCompletion" type="range" min="0" max="1" step="0.01"><output></output></div></div>
+              <div class="field"><label>Days of drinking water</label><input data-prep="waterDays" type="number" min="0" max="60" step="0.5"></div>
+              <div class="field"><label>Days of food</label><input data-prep="foodDays" type="number" min="0" max="180" step="0.5"></div>
+              <div class="field"><label>Days of hygiene supplies</label><input data-prep="hygieneDays" type="number" min="0" max="90"></div>
+              <div class="field"><label>Hours of safe backup power</label><input data-prep="powerBackupHours" type="number" min="0" max="720"></div>
+              <div class="field full"><label>Emergency-kit completeness</label><div class="range-row"><input data-prep="kitCompletion" type="range" min="0" max="1" step="0.01"><output></output></div></div>
             </div>
             <div class="check-grid">
-              <label><input data-prep="firstAid" type="checkbox">急救材料</label>
-              <label><input data-prep="smokeAlarm" type="checkbox">烟雾/安全报警</label>
-              <label><input data-prep="utilityShutoffKnowledge" type="checkbox">知道安全关闭公用设施</label>
-              <label><input data-prep="alternativeTemperaturePlan" type="checkbox">极端温度替代方案</label>
-              <label><input data-prep="shelterPlan" type="checkbox">就地避险方案</label>
-              <label><input data-prep="goBag" type="checkbox">可携带撤离包</label>
+              <label><input data-prep="firstAid" type="checkbox">First-aid supplies</label>
+              <label><input data-prep="smokeAlarm" type="checkbox">Smoke and safety alarms</label>
+              <label><input data-prep="utilityShutoffKnowledge" type="checkbox">Know how to shut off utilities safely</label>
+              <label><input data-prep="alternativeTemperaturePlan" type="checkbox">Alternative plan for extreme temperatures</label>
+              <label><input data-prep="shelterPlan" type="checkbox">Shelter-in-place plan</label>
+              <label><input data-prep="goBag" type="checkbox">Portable evacuation kit</label>
             </div>
           </div>
-          <div class="panel"><h3>动态清单</h3><div id="kitChecklist" class="checklist"></div></div>
+          <div class="panel"><h3>Live checklist</h3><div id="kitChecklist" class="checklist"></div></div>
         </div>
       </section>
 
       <section id="health" class="view">
-        <div class="section-head"><div><span class="kicker">HEALTH CONTINUITY</span><h2>健康、药物与依赖者照护</h2><p>不在客户端保存诊断原件；保存可帮助急救与恢复的最小必要摘要和路径。</p></div></div>
+        <div class="section-head"><div><span class="kicker">HEALTH CONTINUITY</span><h2>Health, medication and dependent care</h2><p>Keep the minimum summary and access instructions needed for emergency care and recovery. Do not store original diagnostic records in this application.</p></div></div>
         <div class="grid two">
           <div class="panel">
-            <div class="field"><label>关键药物可用天数</label><input data-prep="medicationDays" type="number" min="0" max="180" step="0.5"></div>
+            <div class="field"><label>Days of essential medication</label><input data-prep="medicationDays" type="number" min="0" max="180" step="0.5"></div>
             <div class="check-grid">
-              <label><input data-prep="medicalSummary" type="checkbox">纸质药物/过敏/疾病摘要</label>
-              <label><input data-prep="prescriptionCopies" type="checkbox">处方与合法补药路径</label>
-              <label><input data-prep="careBackup" type="checkbox">儿童/老人/残障照护备份</label>
-              <label><input data-prep="professionalSupportContact" type="checkbox">本地医疗或心理支持入口</label>
-              <label><input data-prep="dependentRoutine" type="checkbox">依赖者日常安排可离线执行</label>
+              <label><input data-prep="medicalSummary" type="checkbox">Paper medication, allergy and condition summary</label>
+              <label><input data-prep="prescriptionCopies" type="checkbox">Prescription and lawful refill route</label>
+              <label><input data-prep="careBackup" type="checkbox">Backup care for children, older people and disabled people</label>
+              <label><input data-prep="professionalSupportContact" type="checkbox">Local medical or mental-health support</label>
+              <label><input data-prep="dependentRoutine" type="checkbox">Daily care routines can continue offline</label>
             </div>
           </div>
           <div class="panel">
-            <h3>最小健康卡应包含</h3>
+            <h3>A minimal health card should include</h3>
             <div class="compact-list">
-              <div>姓名与紧急联系人</div><div>药物名称、剂量与时间</div><div>严重过敏与关键疾病</div><div>医疗设备与供电需求</div><div>照护者替代安排</div><div>最近核验日期</div>
+              <div>Name and emergency contact</div><div>Medication names, doses and timing</div><div>Severe allergies and critical conditions</div><div>Medical equipment and power needs</div><div>Backup caregiver arrangements</div><div>Last verification date</div>
             </div>
-            <p class="note">药物储备数量应由医生、药师和本地法规决定。本系统不替代医疗判断。</p>
+            <p class="note">Agree medication quantities with a doctor or pharmacist and follow local requirements. This tool does not replace medical judgment.</p>
           </div>
         </div>
       </section>
 
       <section id="trust" class="view">
-        <div class="section-head"><div><span class="kicker">FAMILY TRUST PROTOCOL</span><h2>通信、深度伪造与紧急求助核验</h2><p>声音、视频和熟悉的写作风格都不能单独证明身份。高影响请求必须跨渠道核验。</p></div></div>
+        <div class="section-head"><div><span class="kicker">FAMILY TRUST PROTOCOL</span><h2>Communication, impersonation and emergency-request verification</h2><p>A voice, video or familiar writing style is insufficient on its own to establish identity. Verify consequential requests through another trusted channel.</p></div></div>
         <div class="grid two">
           <div class="panel">
             <div class="form-grid compact">
-              <div class="field"><label>可信联系人数量</label><input data-prep="trustedContacts" type="number" min="0" max="30"></div>
-              <div class="field"><label>会合点数量</label><input data-prep="meetingPoints" type="number" min="0" max="10"></div>
+              <div class="field"><label>Number of trusted contacts</label><input data-prep="trustedContacts" type="number" min="0" max="30"></div>
+              <div class="field"><label>Number of meeting points</label><input data-prep="meetingPoints" type="number" min="0" max="10"></div>
             </div>
             <div class="check-grid">
-              <label><input data-prep="outOfAreaContact" type="checkbox">已指定外地中继联系人</label>
-              <label><input data-prep="paperContacts" type="checkbox">关键号码有纸质副本</label>
-              <label><input data-prep="offlineRadio" type="checkbox">有离线广播或替代通信</label>
-              <label><input data-prep="twoChannelVerification" type="checkbox">采用“已知号码回拨＋私密挑战＋第二人”</label>
+              <label><input data-prep="outOfAreaContact" type="checkbox">Out-of-area contact assigned</label>
+              <label><input data-prep="paperContacts" type="checkbox">Paper copy of essential numbers</label>
+              <label><input data-prep="offlineRadio" type="checkbox">Offline radio or alternative communication available</label>
+              <label><input data-prep="twoChannelVerification" type="checkbox">Known-number callback, private challenge and second-person check</label>
             </div>
           </div>
           <div class="panel">
-            <h3>紧急消息体检</h3>
-            <textarea id="messageScanInput" rows="7" placeholder="粘贴一条可疑消息。不要粘贴密码、验证码、真实证件或未脱敏个人信息。"></textarea>
-            <button class="btn primary no-print" id="scanMessage">分析操纵与诈骗信号</button>
+            <h3>Check an urgent message</h3>
+            <textarea id="messageScanInput" rows="7" placeholder="Paste a suspicious message after removing passwords, verification codes, identity documents and identifying personal information."></textarea>
+            <button class="btn primary no-print" id="scanMessage">Analyze manipulation and fraud signals</button>
             <div id="messageScanResult" class="result-box"></div>
           </div>
         </div>
-        <div class="panel trust-protocol"><h3>家庭三段核验协议</h3><div class="grid three"><div><b>1. 结束原联系</b><p>不在来电、私信或视频中直接付款、发验证码或安装软件。</p></div><div><b>2. 用已知渠道回拨</b><p>使用纸质或此前保存的号码，而不是对方提供的新号码。</p></div><div><b>3. 私密挑战＋第二人</b><p>询问非公开问题，并请另一位可信人交叉验证。</p></div></div></div>
+        <div class="panel trust-protocol"><h3>Three-step family verification</h3><div class="grid three"><div><b>1. End the incoming contact</b><p>Do not pay, share verification codes or install software during an unverified call, message or video request.</p></div><div><b>2. Call back through a known channel</b><p>Use a previously saved or written number, not a new number supplied by the caller.</p></div><div><b>3. Private challenge and second-person check</b><p>Ask a nonpublic question and verify with another trusted person.</p></div></div></div>
       </section>
 
       <section id="money" class="view">
-        <div class="section-head"><div><span class="kicker">MONEY AND LIVELIHOOD</span><h2>支付、现金流与90天收入连续性</h2><p>余额不等于可用能力；必须同时考虑访问、兑付、身份、轨道、收入和必要生活成本。</p></div></div>
+        <div class="section-head"><div><span class="kicker">MONEY AND LIVELIHOOD</span><h2>Payments, cash flow and 90-day income continuity</h2><p>Assess access, redemption, identity, payment channels, income and essential living costs alongside the balance.</p></div></div>
         <div class="grid two">
           <div class="panel">
             <div class="form-grid compact">
-              <div class="field"><label>可覆盖现金天数</label><input data-prep="cashDays" type="number" min="0" max="180"></div>
-              <div class="field"><label>必要支出储备天数</label><input data-prep="reserveDays" type="number" min="0" max="730"></div>
-              <div class="field"><label>独立支付轨道数量</label><input data-prep="paymentRails" type="number" min="0" max="10"></div>
-              <div class="field"><label>独立收入来源数量</label><input data-prep="incomeSources" type="number" min="0" max="10"></div>
-              <div class="field"><label>可迁移技能数量</label><input data-prep="transferableSkills" type="number" min="0" max="20"></div>
-              <div class="field"><label>可核验作品/结果数量</label><input data-prep="workEvidence" type="number" min="0" max="100"></div>
+              <div class="field"><label>Days covered by accessible cash</label><input data-prep="cashDays" type="number" min="0" max="180"></div>
+              <div class="field"><label>Days of essential-spending reserves</label><input data-prep="reserveDays" type="number" min="0" max="730"></div>
+              <div class="field"><label>Number of independent payment channels</label><input data-prep="paymentRails" type="number" min="0" max="10"></div>
+              <div class="field"><label>Independent income sources</label><input data-prep="incomeSources" type="number" min="0" max="10"></div>
+              <div class="field"><label>Number of transferable skills</label><input data-prep="transferableSkills" type="number" min="0" max="20"></div>
+              <div class="field"><label>Number of verifiable work samples or results</label><input data-prep="workEvidence" type="number" min="0" max="100"></div>
             </div>
             <div class="check-grid">
-              <label><input data-prep="billList" type="checkbox">纸质必要账单与官方联系方式</label>
-              <label><input data-prep="fraudFreezePlan" type="checkbox">账户盗用冻结与申诉路径</label>
-              <label><input data-prep="ninetyDayIncomePlan" type="checkbox">90天收入骤降应对方案</label>
-              <label><input data-prep="localServiceSkill" type="checkbox">至少一项本地现实服务能力</label>
+              <label><input data-prep="billList" type="checkbox">Paper essential bills and official contact details</label>
+              <label><input data-prep="fraudFreezePlan" type="checkbox">Account-theft freeze and appeal procedures</label>
+              <label><input data-prep="ninetyDayIncomePlan" type="checkbox">Plan for a sharp 90-day income loss</label>
+              <label><input data-prep="localServiceSkill" type="checkbox">At least one practical local service capability</label>
             </div>
           </div>
           <div class="panel">
-            <h3>90天收入失效方案</h3>
+            <h3>90-day income disruption plan</h3>
             <ol class="ordered">
-              <li>把支出分为生存、责任、可延期三层。</li>
-              <li>保留至少两条不同失败结构的收入或互助路径。</li>
-              <li>把一项能力转成有第三方证据的有限服务。</li>
-              <li>不以高杠杆、培训贷、投机或诈骗项目填补恐慌。</li>
-              <li>第7、30、60、90天依据现实反馈重算。</li>
+              <li>Separate spending into essentials, responsibilities and deferrable items.</li>
+              <li>Keep at least two income or mutual-aid routes with different failure exposures.</li>
+              <li>Turn one capability into a bounded service supported by outside evidence.</li>
+              <li>Avoid using leverage, training loans, speculation or fraudulent schemes to respond to panic.</li>
+              <li>Review actual results on days 7, 30, 60 and 90.</li>
             </ol>
           </div>
         </div>
       </section>
 
       <section id="digital" class="view">
-        <div class="section-head"><div><span class="kicker">DIGITAL SOVEREIGNTY</span><h2>账号、身份、设备与离线备份</h2><p>假设云端、主手机或主邮箱有一天不可用；把恢复能力放在被攻击对象之外。</p></div></div>
+        <div class="section-head"><div><span class="kicker">DIGITAL SOVEREIGNTY</span><h2>Accounts, identity, devices and offline backups</h2><p>Prepare for loss of cloud access, the main phone or the primary email account. Keep recovery resources outside the affected system.</p></div></div>
         <div class="grid two">
           <div class="panel">
-            <div class="field"><label>关键账号MFA覆盖率</label><div class="range-row"><input data-prep="mfaCoverage" type="range" min="0" max="1" step="0.01"><output></output></div></div>
-            <div class="field"><label>离线备份份数</label><input data-prep="offlineBackups" type="number" min="0" max="10"></div>
+            <div class="field"><label>MFA coverage of essential accounts</label><div class="range-row"><input data-prep="mfaCoverage" type="range" min="0" max="1" step="0.01"><output></output></div></div>
+            <div class="field"><label>Number of offline backups</label><input data-prep="offlineBackups" type="number" min="0" max="10"></div>
             <div class="check-grid">
-              <label><input data-prep="passwordManager" type="checkbox">唯一密码＋密码管理器</label>
-              <label><input data-prep="softwareUpdates" type="checkbox">设备与软件持续更新</label>
-              <label><input data-prep="accountRecovery" type="checkbox">关键账号恢复路径已测试</label>
-              <label><input data-prep="oauthReview" type="checkbox">定期检查第三方登录与OAuth</label>
-              <label><input data-prep="documentCopies" type="checkbox">证件与权益凭证有受保护副本</label>
-              <label><input data-prep="recoveryCodes" type="checkbox">恢复码存放在主设备之外</label>
-              <label><input data-prep="cleanDevicePlan" type="checkbox">已定义“干净设备”恢复方案</label>
-              <label><input data-prep="officialAccountContacts" type="checkbox">银行、运营商、邮箱等官方恢复渠道已记录</label>
-              <label><input data-prep="secureStorage" type="checkbox">纸质与加密副本分开存放</label>
+              <label><input data-prep="passwordManager" type="checkbox">Unique passwords and a password manager</label>
+              <label><input data-prep="softwareUpdates" type="checkbox">Devices and software kept up to date</label>
+              <label><input data-prep="accountRecovery" type="checkbox">Essential account-recovery routes tested</label>
+              <label><input data-prep="oauthReview" type="checkbox">Third-party sign-in and OAuth access reviewed regularly</label>
+              <label><input data-prep="documentCopies" type="checkbox">Protected copies of identity and entitlement documents</label>
+              <label><input data-prep="recoveryCodes" type="checkbox">Recovery codes stored separately from the main device</label>
+              <label><input data-prep="cleanDevicePlan" type="checkbox">Trusted-device recovery plan defined</label>
+              <label><input data-prep="officialAccountContacts" type="checkbox">Official recovery channels for banks, carriers and email recorded</label>
+              <label><input data-prep="secureStorage" type="checkbox">Paper and encrypted copies stored separately</label>
             </div>
           </div>
           <div class="panel">
-            <h3>账号接管后的顺序</h3>
-            <div class="step-stack"><div><span>1</span><p><b>换到干净设备</b><br>不要在疑似受控设备上继续改密码。</p></div><div><span>2</span><p><b>保护主邮箱和运营商</b><br>它们通常是其他账号的恢复根。</p></div><div><span>3</span><p><b>撤销会话与第三方授权</b><br>停止AI代理、扩展和不明OAuth。</p></div><div><span>4</span><p><b>联系官方渠道并保全证据</b><br>记录时间、交易和通知，不与攻击者交涉。</p></div></div>
+            <h3>After an account takeover</h3>
+            <div class="step-stack"><div><span>1</span><p><b>Move to a trusted device</b><br>Do not continue changing passwords on a device suspected of compromise.</p></div><div><span>2</span><p><b>Secure the primary email account and mobile-carrier account</b><br>Other accounts often depend on these recovery channels.</p></div><div><span>3</span><p><b>Revoke sessions and third-party access</b><br>Disable AI agents, extensions and unfamiliar OAuth access.</p></div><div><span>4</span><p><b>Contact official channels and preserve evidence</b><br>Record times, transactions and notices; do not negotiate with an attacker.</p></div></div>
           </div>
         </div>
       </section>
 
       <section id="information" class="view">
-        <div class="section-head"><div><span class="kicker">INFORMATION INTEGRITY</span><h2>可信来源、谣言与高影响决策</h2><p>在信息爆炸和自动生成内容中，最重要的不是读得更多，而是把事实、来源、推断和行动分开。</p></div></div>
+        <div class="section-head"><div><span class="kicker">INFORMATION INTEGRITY</span><h2>Trusted sources, rumors and consequential decisions</h2><p>Separate observations, sources, interpretations and actions when reviewing a large volume of information and generated content.</p></div></div>
         <div class="grid two">
           <div class="panel">
-            <div class="form-grid compact"><div class="field"><label>可离线访问的官方来源数量</label><input data-prep="officialSources" type="number" min="0" max="30"></div></div>
+            <div class="form-grid compact"><div class="field"><label>Number of official sources available offline</label><input data-prep="officialSources" type="number" min="0" max="30"></div></div>
             <div class="check-grid">
-              <label><input data-prep="twoSourceRule" type="checkbox">高影响主张至少两个独立渠道</label>
-              <label><input data-prep="pauseBeforeShare" type="checkbox">转发和付款前暂停</label>
-              <label><input data-prep="rumorLog" type="checkbox">记录已核验谣言与更正</label>
-              <label><input data-prep="offlineSourceList" type="checkbox">官方电话、广播和地址可离线访问</label>
-              <label><input data-prep="sourceDiversity" type="checkbox">来源不依赖同一平台或同一转述链</label>
+              <label><input data-prep="twoSourceRule" type="checkbox">At least two independent channels for consequential claims</label>
+              <label><input data-prep="pauseBeforeShare" type="checkbox">Pause before forwarding or paying</label>
+              <label><input data-prep="rumorLog" type="checkbox">Record checked rumors and corrections</label>
+              <label><input data-prep="offlineSourceList" type="checkbox">Official numbers, radio channels and addresses available offline</label>
+              <label><input data-prep="sourceDiversity" type="checkbox">Sources do not all rely on one platform or retelling chain</label>
             </div>
           </div>
-          <div class="panel"><h3>三层信息板</h3><div class="evidence-lanes"><div><b>已观察</b><span>我亲自看见、测得或收到的原始记录。</span></div><div><b>来源陈述</b><span>由谁、何时、通过什么正式渠道发布。</span></div><div><b>推断与行动</b><span>我们据此判断什么；什么证据会推翻它。</span></div></div></div>
+          <div class="panel"><h3>Three-part information board</h3><div class="evidence-lanes"><div><b>Observed</b><span>Original records I directly observed, measured or received.</span></div><div><b>Source statements</b><span>Who published it, when and through which official channel.</span></div><div><b>Interpretation and action</b><span>What we infer and what evidence would overturn that inference.</span></div></div></div>
         </div>
-        <div class="panel"><h3>可信来源登记</h3><div class="form-row"><input id="sourceName" placeholder="来源名称"><input id="sourceChannel" placeholder="官方网站/电话/广播/地址"><input id="sourceDate" type="date"><button class="btn primary no-print" id="addSource">添加</button></div><div id="sourceTable"></div></div>
+        <div class="panel"><h3>Trusted-source register</h3><div class="form-row"><input id="sourceName" placeholder="Source name"><input id="sourceChannel" placeholder="Official website, telephone, radio channel or address"><input id="sourceDate" type="date"><button class="btn primary no-print" id="addSource">Add</button></div><div id="sourceTable"></div></div>
       </section>
 
       <section id="authority" class="view">
-        <div class="section-head"><div><span class="kicker">AI AUTHORITY FIREWALL</span><h2>模型能力不等于代表人的权力</h2><p>任何AI、自动化、浏览器扩展或Agent都必须按动作类型、对象、额度、期限和撤销路径重新授权。</p></div></div>
+        <div class="section-head"><div><span class="kicker">AI AUTHORITY FIREWALL</span><h2>Model capability does not confer authority to act for a person</h2><p>Authorize each AI tool, automation, extension or agent by action, subject, amount, duration and revocation route.</p></div></div>
         <div class="grid two">
           <div class="panel">
             <div class="check-grid">
-              <label><input data-prep="humanConfirmCritical" type="checkbox">关键动作必须具名人工确认</label>
-              <label><input data-prep="noAutoTransfer" type="checkbox">禁止自动转账和投资</label>
-              <label><input data-prep="noAutoContract" type="checkbox">禁止自动签约和同意条款</label>
-              <label><input data-prep="revocationPlan" type="checkbox">有一键撤销/停用流程</label>
-              <label><input data-prep="agentInventory" type="checkbox">已盘点所有AI和自动化授权</label>
-              <label><input data-prep="leastPrivilege" type="checkbox">每个工具只拥有最小权限和期限</label>
+              <label><input data-prep="humanConfirmCritical" type="checkbox">Consequential actions require named human confirmation</label>
+              <label><input data-prep="noAutoTransfer" type="checkbox">No automatic transfers or investments</label>
+              <label><input data-prep="noAutoContract" type="checkbox">No automatic signing or acceptance of terms</label>
+              <label><input data-prep="revocationPlan" type="checkbox">Immediate revocation or disabling procedure available</label>
+              <label><input data-prep="agentInventory" type="checkbox">All AI and automation permissions inventoried</label>
+              <label><input data-prep="leastPrivilege" type="checkbox">Each tool has limited permissions and duration</label>
             </div>
           </div>
           <div class="panel">
-            <h3>动作闸门测试</h3>
+            <h3>Test the action gate</h3>
             <div class="form-grid compact">
-              <div class="field"><label>动作类型</label><select id="aiActionType"><option value="local_analysis">本地分析</option><option value="draft_external">生成对外草稿</option><option value="send_sensitive_message">发送敏感消息</option><option value="transfer_money">转账</option><option value="sign_contract">签署合同</option><option value="change_identity">修改身份信息</option><option value="delete_data">删除数据</option><option value="change_medication">改变用药</option><option value="unlock_home">开放住宅权限</option><option value="autonomous_medical_diagnosis">自动医疗诊断</option><option value="human_worth_ranking">人的总价值排名</option></select></div>
-              <label class="check-row"><input id="aiExternal" type="checkbox">对外部系统产生作用</label>
-              <label class="check-row"><input id="aiIrreversible" type="checkbox">可能不可逆</label>
-              <label class="check-row"><input id="aiMandate" type="checkbox">存在有效、具体、未到期授权</label>
-              <label class="check-row"><input id="aiHuman" type="checkbox">当前有具名人最终确认</label>
+              <div class="field"><label>Action type</label><select id="aiActionType"><option value="local_analysis">本地分析</option><option value="draft_external">生成对外草稿</option><option value="send_sensitive_message">发送敏感消息</option><option value="transfer_money">转账</option><option value="sign_contract">签署合同</option><option value="change_identity">修改身份信息</option><option value="delete_data">删除数据</option><option value="change_medication">改变用药</option><option value="unlock_home">开放住宅权限</option><option value="autonomous_medical_diagnosis">自动医疗诊断</option><option value="human_worth_ranking">人的总价值排名</option></select></div>
+              <label class="check-row"><input id="aiExternal" type="checkbox">Affects an external system</label>
+              <label class="check-row"><input id="aiIrreversible" type="checkbox">May be irreversible</label>
+              <label class="check-row"><input id="aiMandate" type="checkbox">Valid, specific and unexpired authorization exists</label>
+              <label class="check-row"><input id="aiHuman" type="checkbox">A named person provides final confirmation now</label>
             </div>
-            <button class="btn primary no-print" id="evaluateAi">评估动作</button>
+            <button class="btn primary no-print" id="evaluateAi">Evaluate action</button>
             <div id="aiResult" class="result-box"></div>
           </div>
         </div>
-        <div class="panel policy-matrix"><h3>默认权限矩阵</h3><div class="table-wrap"><table><thead><tr><th>动作</th><th>默认状态</th><th>必要条件</th></tr></thead><tbody><tr><td>本地摘要、清单、比较</td><td><span class="pill good">允许</span></td><td>可逆，不调用外部账户</td></tr><tr><td>对外消息、申请、预约草稿</td><td><span class="pill warn">仅草稿</span></td><td>发送前逐项人工核对</td></tr><tr><td>转账、投资、签约、身份修改</td><td><span class="pill bad">人工保留</span></td><td>交易级授权＋最终人工确认</td></tr><tr><td>医疗、法律、福利资格最终决定</td><td><span class="pill bad">禁止自动化</span></td><td>由合格人员或适格机构负责</td></tr></tbody></table></div></div>
+        <div class="panel policy-matrix"><h3>Default permission matrix</h3><div class="table-wrap"><table><thead><tr><th>Action</th><th>Default status</th><th>Required conditions</th></tr></thead><tbody><tr><td>Local summaries, checklists and comparisons</td><td><span class="pill good">Allowed</span></td><td>Reversible; no external-account access</td></tr><tr><td>Draft messages, applications and appointments</td><td><span class="pill warn">Draft only</span></td><td>Human review of each item before sending</td></tr><tr><td>Transfers, investments, contracts and identity changes</td><td><span class="pill bad">Reserved for human decision</span></td><td>Transaction-specific authorization and final human confirmation</td></tr><tr><td>Final medical, legal and benefit-eligibility decisions</td><td><span class="pill bad">No automated decision</span></td><td>Qualified people or authorized institutions remain responsible</td></tr></tbody></table></div></div>
       </section>
 
       <section id="mobility" class="view">
-        <div class="section-head"><div><span class="kicker">MOBILITY AND MUTUAL AID</span><h2>迁移、会合与三人互助单元</h2><p>孤立个体很脆弱；过度集中也很脆弱。建立不同技能、不同位置、最小披露的互助网络。</p></div></div>
+        <div class="section-head"><div><span class="kicker">MOBILITY AND MUTUAL AID</span><h2>Relocation, meeting points and three-person mutual aid</h2><p>Build a support network with different skills and locations while sharing only necessary information. Avoid dependence on either isolation or a single central point.</p></div></div>
         <div class="grid two">
           <div class="panel">
-            <div class="form-grid compact"><div class="field"><label>已演练路线数量</label><input data-prep="routes" type="number" min="0" max="10"></div><div class="field"><label>互助联系人数量</label><input data-prep="mutualAidContacts" type="number" min="0" max="30"></div></div>
+            <div class="form-grid compact"><div class="field"><label>Number of practiced routes</label><input data-prep="routes" type="number" min="0" max="10"></div><div class="field"><label>Number of mutual-aid contacts</label><input data-prep="mutualAidContacts" type="number" min="0" max="30"></div></div>
             <div class="check-grid">
-              <label><input data-prep="transportBackup" type="checkbox">替代交通/步行路线</label>
-              <label><input data-prep="destinationPlan" type="checkbox">临时安全目的地已核验</label>
-              <label><input data-prep="petPlan" type="checkbox">宠物或动物照护方案</label>
-              <label><input data-prep="vulnerableCheck" type="checkbox">有人负责检查脆弱成员</label>
-              <label><input data-prep="skillOffer" type="checkbox">已声明自己能提供的现实技能</label>
-              <label><input data-prep="sharedResources" type="checkbox">共享资源和边界已约定</label>
-              <label><input data-prep="localOrganizations" type="checkbox">已记录本地社区/公益/宗教/公共支持组织</label>
+              <label><input data-prep="transportBackup" type="checkbox">Alternative transport or walking routes</label>
+              <label><input data-prep="destinationPlan" type="checkbox">Temporary safe destination verified</label>
+              <label><input data-prep="petPlan" type="checkbox">Pet or animal-care plan</label>
+              <label><input data-prep="vulnerableCheck" type="checkbox">Someone checks on vulnerable household members</label>
+              <label><input data-prep="skillOffer" type="checkbox">Practical skills available to help others recorded</label>
+              <label><input data-prep="sharedResources" type="checkbox">Shared resources and boundaries agreed</label>
+              <label><input data-prep="localOrganizations" type="checkbox">Local community, nonprofit, faith and public-support organizations recorded</label>
             </div>
           </div>
-          <div class="panel"><h3>三人互助单元</h3><div class="compact-list"><div><b>角色A：本地行动</b> — 接触现场、交通、邻里与实物资源。</div><div><b>角色B：信息与通信</b> — 官方来源、纸质联系人和外地中继。</div><div><b>角色C：照护与恢复</b> — 儿童、老人、药物、情绪和后续安排。</div></div><p class="note">同一人可兼任，但至少要避免所有能力、设备和信息都集中在一个节点。</p></div>
+          <div class="panel"><h3>Three-person mutual-aid unit</h3><div class="compact-list"><div><b>Role A: local action</b> — Local conditions, transport, neighbors and material resources.</div><div><b>Role B: information and communication</b> — Official sources, paper contacts and out-of-area relay.</div><div><b>Role C: care and recovery</b> — Children, older people, medication, emotional support and follow-up.</div></div><p class="note">One person may hold several roles, but avoid placing all capabilities, devices and information with one person.</p></div>
         </div>
-        <div class="panel"><h3>联系人登记（不要写入敏感身份信息）</h3><div class="form-row"><input id="contactName" placeholder="昵称或代号"><input id="contactRole" placeholder="角色/可提供能力"><input id="contactChannels" placeholder="最小必要联系方式或存放位置"><button class="btn primary no-print" id="addContact">添加</button></div><div id="contactTable"></div></div>
+        <div class="panel"><h3>Contact register; omit sensitive identity information</h3><div class="form-row"><input id="contactName" placeholder="Alias or code name"><input id="contactRole" placeholder="Role or available capability"><input id="contactChannels" placeholder="Minimum contact details or their storage location"><button class="btn primary no-print" id="addContact">Add</button></div><div id="contactTable"></div></div>
       </section>
 
       <section id="activation" class="view">
-        <div class="section-head"><div><span class="kicker">TRIGGER ENGINE</span><h2>从“传言中的AGI”转向可观察信号</h2><p>不因网络传言立即进入恐慌，也不在多个系统已失效时继续等待“官方宣布AGI”。勾选你实际观察并核验的信号。</p></div></div>
+        <div class="section-head"><div><span class="kicker">TRIGGER ENGINE</span><h2>Use observable disruption signals</h2><p>Select signals you have observed and verified. Online rumors alone do not establish a crisis, and practical disruption can require action before any announcement about AGI.</p></div></div>
         <div id="signalGrid" class="signal-grid"></div>
-        <div class="panel mode-panel"><div><span class="kicker">建议模式</span><h3 id="activationMode"></h3><p id="activationInstruction"></p></div><div id="activationActions" class="compact-list"></div></div>
-        <div class="boundary-banner"><b>生命安全优先：</b>如存在即时人身、火灾、医疗、暴力或官方撤离风险，请直接联系本地应急服务并遵循当地指令，不要等待本客户端给出结论。</div>
+        <div class="panel mode-panel"><div><span class="kicker">Suggested mode</span><h3 id="activationMode"></h3><p id="activationInstruction"></p></div><div id="activationActions" class="compact-list"></div></div>
+        <div class="boundary-banner"><b>Immediate safety:</b>For immediate danger involving people, fire, medical needs, violence or an official evacuation, contact local emergency services and follow local instructions. Do not wait for this application.</div>
       </section>
 
       <section id="drills" class="view">
-        <div class="section-head"><div><span class="kicker">DRILLS AND REALITY CONTACT</span><h2>安全演练与模型修订</h2><p>计划只有在演练中暴露失败，才开始接近真实能力。所有演练必须使用合成情景，不制造真正危险。</p></div></div>
+        <div class="section-head"><div><span class="kicker">DRILLS AND REALITY CONTACT</span><h2>Safe practice and model revision</h2><p>Use synthetic exercises to expose gaps in the plan. Do not create real danger during a drill.</p></div></div>
         <div class="grid two">
-          <div class="panel"><h3>生成演练</h3><select id="drillType"><option value="communication">通信中断</option><option value="payment">支付中断</option><option value="identity">身份接管</option><option value="relocation">撤离与路线</option><option value="misinformation">深度伪造与谣言</option></select><button class="btn primary no-print" id="buildDrill">生成</button><div id="drillOutput" class="result-box"></div></div>
-          <div class="panel"><h3>记录现实结果</h3><div class="form-grid compact"><div class="field"><label>日期</label><input id="drillDate" type="date"></div><div class="field"><label>演练情景</label><input id="drillScenario"></div><div class="field full"><label>实际结果</label><textarea id="drillResult" rows="3"></textarea></div><div class="field full"><label>需要修订</label><textarea id="drillRevision" rows="3"></textarea></div></div><button class="btn primary no-print" id="saveDrill">写入现实回执</button></div>
+          <div class="panel"><h3>Generate an exercise</h3><select id="drillType"><option value="communication">通信中断</option><option value="payment">支付中断</option><option value="identity">身份接管</option><option value="relocation">撤离与路线</option><option value="misinformation">深度伪造与谣言</option></select><button class="btn primary no-print" id="buildDrill">Generate</button><div id="drillOutput" class="result-box"></div></div>
+          <div class="panel"><h3>Record actual results</h3><div class="form-grid compact"><div class="field"><label>Date</label><input id="drillDate" type="date"></div><div class="field"><label>Exercise scenario</label><input id="drillScenario"></div><div class="field full"><label>Actual outcome</label><textarea id="drillResult" rows="3"></textarea></div><div class="field full"><label>Revision needed</label><textarea id="drillRevision" rows="3"></textarea></div></div><button class="btn primary no-print" id="saveDrill">Record outcome receipt</button></div>
         </div>
-        <div class="panel"><h3>演练历史</h3><div id="drillTable"></div></div>
+        <div class="panel"><h3>Exercise history</h3><div id="drillTable"></div></div>
       </section>
 
       <section id="export" class="view">
-        <div class="section-head"><div><span class="kicker">PORTABLE CONTINUITY PACKAGE</span><h2>离线卡、决策回执与本地导出</h2><p>数据归个体持有。导出后可加密保存、打印或交给家庭成员；不要把秘密写入文件。</p></div></div>
+        <div class="section-head"><div><span class="kicker">PORTABLE CONTINUITY PACKAGE</span><h2>Offline cards, decision receipts and local export</h2><p>You retain your data. Encrypt, print or share an export with your household as appropriate; do not include secrets.</p></div></div>
         <div class="grid two no-print">
-          <div class="panel"><h3>数据与计划</h3><div class="button-stack"><button class="btn primary" id="downloadPackage">导出连续性包 .hcpkg.json</button><button class="btn" id="downloadBackup">导出完整本地备份</button><button class="btn" id="downloadPlan">导出文本行动方案</button><button class="btn" id="importBackup">导入备份</button><input id="importFile" type="file" accept="application/json" hidden></div></div>
-          <div class="panel"><h3>打印与核验</h3><div class="button-stack"><button class="btn primary" id="printCard">打印离线家庭卡</button><button class="btn" id="verifyLedger">验证回执链</button><button class="btn danger-outline" id="clearLocal">清除本地数据</button></div><div id="ledgerStatus" class="result-box"></div></div>
+          <div class="panel"><h3>Data and plans</h3><div class="button-stack"><button class="btn primary" id="downloadPackage">Export continuity package .hcpkg.json</button><button class="btn" id="downloadBackup">Export full local backup</button><button class="btn" id="downloadPlan">Export action plan as text</button><button class="btn" id="importBackup">Import backup</button><input id="importFile" type="file" accept="application/json" hidden></div></div>
+          <div class="panel"><h3>Print and verify</h3><div class="button-stack"><button class="btn primary" id="printCard">Print offline household card</button><button class="btn" id="verifyLedger">Verify receipt chain</button><button class="btn danger-outline" id="clearLocal">Clear local data</button></div><div id="ledgerStatus" class="result-box"></div></div>
         </div>
         <div class="panel print-card" id="printableCard"></div>
-        <div class="panel"><h3>行动方案预览</h3><pre id="planPreview"></pre></div>
+        <div class="panel"><h3>Action-plan preview</h3><pre id="planPreview"></pre></div>
       </section>
     </div>
   </main>
@@ -979,6 +981,123 @@ function init(){
   window.ShengzhouApp={getState:()=>Core.normalizeState(state),setState:x=>{state=Core.normalizeState(x);bindValuesOnly();renderAll();},setView,recompute:()=>Core.readinessSummary(state)};
 }
 document.addEventListener('DOMContentLoaded',init);
+})();
+
+</script>
+
+<script id="yd-interface-config" type="application/json">{"messages":{"载入合成示例":"Load synthetic example","家庭人数":"Household size","每月必要支出":"Monthly essential outflows","独立收入来源数量":"Independent income sources","专业联系人":"Professional contacts","导出":"Export","导入":"Import","决策":"Decision","打印 / Print":"Print","SHENGZHOU 28 家庭紧急卡 / Household Emergency Card":"Household Emergency Card","最低必要信息 / Minimum necessary information":"Minimum necessary information","家庭名称 / Household":"Household","辖区 / Jurisdiction":"Jurisdiction","异地联系人 / Out-of-area contact":"Out-of-area contact","第二可信人 / Second trusted person":"Second trusted person","会合点A / Meeting point A":"Meeting point A","会合点B / Meeting point B":"Meeting point B","医疗联系人 / Medical contact":"Medical contact","公共应急入口 / Official emergency source":"Official emergency source","深度伪造核验 / Deepfake verification":"Deepfake verification","生命安全顺序 / Life-safety order":"Life-safety order","确认人身安全与官方预警 / Confirm immediate safety and official alerts.":"Confirm immediate safety and official alerts.","停止不可逆动作 / Stop irreversible actions.":"Stop irreversible actions.","确认儿童、老人、残障者、药物与宠物 / Check dependents, medicine and pets.":"Check dependents, medicine and pets.","启用备用通信、支付与照护 / Activate backup communication, payment and care.":"Activate backup communication, payment and care.","记录事实、时间与已做动作 / Record facts, times and actions.":"Record facts, times and actions.","个月":"months","天":"days","互助路径":"Mutual-aid path","最小权限":"Least privilege","不确定":"Uncertain","导入失败：":"Import failed:","照护":"Care","修复":"Repair","权重":"Weight","模型":"Model","记忆":"Memory","修订":"Revision","中文":"中文","司法辖区":"Jurisdiction","说明":"Notes","能力":"Capability","优先级":"Priority","名称":"Name","类型":"Type","情景":"Scenario","类别":"Category","小时":"Hours","证据":"Evidence","数量":"Quantity","地点":"Location","目的":"Purpose","授权":"Authorization","动作类型":"Action type","数据":"Data","导入备份":"Import backup","生舟 28.0 | AGI时代个人生存连续性系统":"SHENGZHOU 28.0 | Personal Continuity in the AGI Era","主导航":"Main navigation","生舟 28.0":"SHENGZHOU 28.0","生存驾驶舱":"Continuity dashboard","家庭连续性护照":"Household continuity passport","八个失效世界":"Eight failure scenarios","十二项生存底线":"Twelve essential floors","72小时与30天准备":"72-hour and 30-day preparation","健康与照护连续性":"Health and care continuity","家庭通信与防伪":"Family communication and impersonation checks","货币与收入连续性":"Money and income continuity","数字、身份与备份":"Digital access, identity and backups","信息验证与谣言防护":"Information verification and rumor checks","AI权限防火墙":"AI permission firewall","迁移与社区互助":"Relocation and community support","失效触发与应急模式":"Failure triggers and emergency mode","演练与现实接触":"Practice and real-world checks","回执、打印与导出":"Receipts, print and export","完全离线 · 不需要账号 · 不调用模型API":"Fully offline · No account · No model API","不存密码、验证码、私钥或完整证件":"Do not store passwords, verification codes, private keys or complete identity documents","我的家庭":"My household","准备的是功能连续性，不是押注单一末日预言":"Prepare for loss of essential functions across multiple scenarios","菜单":"Menu","本地保存":"Save locally","重新计算":"Recalculate","当模型、平台、支付、身份与公共服务同时变化时，普通人仍要能够活下去、核验事实、保护家人并重新开始。":"When models, platforms, payments, identity systems and public services change together, people still need to meet essential needs, verify facts, protect their families and recover.","生舟不预测某一天“AGI必然失控”。它把风险转换成可观察的功能失效：收入骤降、深度伪造诈骗、账号接管、通信与支付中断、药物或能源短缺、自动化越权、局部迁移与复合危机，并为每一类失效建立个人可执行的准备、触发、行动和修订闭环。":"SHENGZHOU organizes observable failures—income loss, impersonation fraud, account takeover, communication and payment outages, medicine or energy shortages, unauthorized automation, displacement and compound crises—into practical preparation, triggers, actions and review. It does not predict a date for loss of AGI control.","建立我的护照":"Create my passport","启动失效判断":"Assess a disruption","打印离线卡":"Print offline card","当前最弱处":"Current weakest point","优先准备行动":"Priority preparations","查看全部":"View all","失效世界":"Failure scenarios","最坏情景底线":"Worst-scenario floor","调整情景":"Adjust scenarios","立即模式":"Immediate mode","基线准备":"Baseline preparation","检查当前信号":"Check current signals","四个时间尺度":"Four time horizons","不是囤积恐惧，而是建立连续性":"Build practical continuity","0–10分钟":"0–10 minutes","停止不可逆动作；核验；确认人员与医疗依赖。":"Pause irreversible actions; verify the situation; check people and medical dependencies.","10–60分钟":"10–60 minutes","通信树、干净设备、现金与文件、官方信息。":"Contact tree, trusted device, cash and documents, official information.","1–72小时":"1–72 hours","水、食物、药物、能源、会合与互助。":"Water, food, medicines, energy, meeting points and mutual aid.","30–180天":"30–180 days","收入、技能、迁移、公共服务与社会关系重建。":"Rebuild income, skills, mobility, public-service access and social support.","边界：":"Scope:","本系统不是应急服务、医疗器械、金融产品或生存保证。真实紧急情况中，以当地官方预警、应急服务和专业人员的指示为准。":"This tool is not an emergency service, medical device, financial product or survival guarantee. In an emergency, follow verified local alerts and instructions from emergency services and qualified professionals.","先明确谁需要保护、哪些能力不能归零，再讨论任何技术或资产方案。":"Identify who needs protection and which essential capabilities must remain available before considering technology or asset plans.","显示名称":"Display name","司法辖区/所在地":"Jurisdiction or location","请以后核验本地官方来源":"Verify local official sources","主要语言":"Primary language","住房类型":"Housing type","儿童人数":"Number of children","老年成员人数":"Number of older household members","宠物数量":"Number of pets","家庭中有人依赖持续药物、医疗设备、无障碍协助或特殊照护":"Someone depends on continuing medication, medical equipment, accessibility support or specialist care","主要交通方式":"Primary transport","每月必要支出（本地货币）":"Monthly essential spending, local currency","本地应急号码":"Local emergency number","请从本地官方来源核验":"Verify with a local official source","最近安全地点":"Nearest safe location","外地中继联系人姓名":"Out-of-area contact name","外地中继联系方式":"Out-of-area contact details","可只写纸质存放位置":"You may record only where the paper copy is kept","近距离会合点":"Nearby meeting point","远距离会合点":"Distant meeting point","家庭核验提示":"Family identity-check reminder","不要在本客户端保存真实口令，只记录“口令放在哪里”或核验流程。":"Record where a secret phrase is kept or how to verify identity; do not store the actual secret here.","其他约束与责任":"Other constraints and responsibilities","例如照护、无障碍、宗教饮食、法律身份、工作地点、学校接送等":"For example: care, accessibility, dietary needs, legal status, workplace or school pickup","护照完整度":"Passport completeness","八个非同构失效世界":"Eight structurally different failure scenarios","权重只是规划假设，不是已经校准的发生概率。保留不同失败结构，可以防止把全部准备押在一种叙事上。":"Weights are planning assumptions, not calibrated probabilities. Distinct failure scenarios help avoid relying on a single forecast.","十二项生存连续性底线":"Twelve essential continuity floors","高收入不能抵消药物断供；强网络不能抵消身份锁死；平均准备度不能掩盖最弱能力归零。":"Income cannot replace unavailable medication; connectivity cannot restore a locked identity. Keep the weakest essential capability visible.","当前优先行动序列":"Current action priorities","基础物资与家庭准备":"Basic supplies and household preparation","先建立短期生存，再建立不依赖单一支付、云服务或供应链的30天连续性。":"Establish short-term essentials, then plan 30-day continuity without relying on a single payment channel, cloud service or supply chain.","数量与时间":"Quantities and duration","饮水可用天数":"Days of drinking water","食物可用天数":"Days of food","卫生用品天数":"Days of hygiene supplies","安全备用电力小时":"Hours of safe backup power","应急包完成度":"Emergency-kit completeness","急救材料":"First-aid supplies","烟雾/安全报警":"Smoke and safety alarms","知道安全关闭公用设施":"Know how to shut off utilities safely","极端温度替代方案":"Alternative plan for extreme temperatures","就地避险方案":"Shelter-in-place plan","可携带撤离包":"Portable evacuation kit","动态清单":"Live checklist","健康、药物与依赖者照护":"Health, medication and dependent care","不在客户端保存诊断原件；保存可帮助急救与恢复的最小必要摘要和路径。":"Keep the minimum summary and access instructions needed for emergency care and recovery. Do not store original diagnostic records in this application.","关键药物可用天数":"Days of essential medication","纸质药物/过敏/疾病摘要":"Paper medication, allergy and condition summary","处方与合法补药路径":"Prescription and lawful refill route","儿童/老人/残障照护备份":"Backup care for children, older people and disabled people","本地医疗或心理支持入口":"Local medical or mental-health support","依赖者日常安排可离线执行":"Daily care routines can continue offline","最小健康卡应包含":"A minimal health card should include","姓名与紧急联系人":"Name and emergency contact","药物名称、剂量与时间":"Medication names, doses and timing","严重过敏与关键疾病":"Severe allergies and critical conditions","医疗设备与供电需求":"Medical equipment and power needs","照护者替代安排":"Backup caregiver arrangements","最近核验日期":"Last verification date","药物储备数量应由医生、药师和本地法规决定。本系统不替代医疗判断。":"Agree medication quantities with a doctor or pharmacist and follow local requirements. This tool does not replace medical judgment.","通信、深度伪造与紧急求助核验":"Communication, impersonation and emergency-request verification","声音、视频和熟悉的写作风格都不能单独证明身份。高影响请求必须跨渠道核验。":"A voice, video or familiar writing style is insufficient on its own to establish identity. Verify consequential requests through another trusted channel.","可信联系人数量":"Number of trusted contacts","会合点数量":"Number of meeting points","已指定外地中继联系人":"Out-of-area contact assigned","关键号码有纸质副本":"Paper copy of essential numbers","有离线广播或替代通信":"Offline radio or alternative communication available","采用“已知号码回拨＋私密挑战＋第二人”":"Known-number callback, private challenge and second-person check","紧急消息体检":"Check an urgent message","粘贴一条可疑消息。不要粘贴密码、验证码、真实证件或未脱敏个人信息。":"Paste a suspicious message after removing passwords, verification codes, identity documents and identifying personal information.","分析操纵与诈骗信号":"Analyze manipulation and fraud signals","家庭三段核验协议":"Three-step family verification","1. 结束原联系":"1. End the incoming contact","不在来电、私信或视频中直接付款、发验证码或安装软件。":"Do not pay, share verification codes or install software during an unverified call, message or video request.","2. 用已知渠道回拨":"2. Call back through a known channel","使用纸质或此前保存的号码，而不是对方提供的新号码。":"Use a previously saved or written number, not a new number supplied by the caller.","3. 私密挑战＋第二人":"3. Private challenge and second-person check","询问非公开问题，并请另一位可信人交叉验证。":"Ask a nonpublic question and verify with another trusted person.","支付、现金流与90天收入连续性":"Payments, cash flow and 90-day income continuity","余额不等于可用能力；必须同时考虑访问、兑付、身份、轨道、收入和必要生活成本。":"Assess access, redemption, identity, payment channels, income and essential living costs alongside the balance.","可覆盖现金天数":"Days covered by accessible cash","必要支出储备天数":"Days of essential-spending reserves","独立支付轨道数量":"Number of independent payment channels","可迁移技能数量":"Number of transferable skills","可核验作品/结果数量":"Number of verifiable work samples or results","纸质必要账单与官方联系方式":"Paper essential bills and official contact details","账户盗用冻结与申诉路径":"Account-theft freeze and appeal procedures","90天收入骤降应对方案":"Plan for a sharp 90-day income loss","至少一项本地现实服务能力":"At least one practical local service capability","90天收入失效方案":"90-day income disruption plan","把支出分为生存、责任、可延期三层。":"Separate spending into essentials, responsibilities and deferrable items.","保留至少两条不同失败结构的收入或互助路径。":"Keep at least two income or mutual-aid routes with different failure exposures.","把一项能力转成有第三方证据的有限服务。":"Turn one capability into a bounded service supported by outside evidence.","不以高杠杆、培训贷、投机或诈骗项目填补恐慌。":"Avoid using leverage, training loans, speculation or fraudulent schemes to respond to panic.","第7、30、60、90天依据现实反馈重算。":"Review actual results on days 7, 30, 60 and 90.","账号、身份、设备与离线备份":"Accounts, identity, devices and offline backups","假设云端、主手机或主邮箱有一天不可用；把恢复能力放在被攻击对象之外。":"Prepare for loss of cloud access, the main phone or the primary email account. Keep recovery resources outside the affected system.","关键账号MFA覆盖率":"MFA coverage of essential accounts","离线备份份数":"Number of offline backups","唯一密码＋密码管理器":"Unique passwords and a password manager","设备与软件持续更新":"Devices and software kept up to date","关键账号恢复路径已测试":"Essential account-recovery routes tested","定期检查第三方登录与OAuth":"Third-party sign-in and OAuth access reviewed regularly","证件与权益凭证有受保护副本":"Protected copies of identity and entitlement documents","恢复码存放在主设备之外":"Recovery codes stored separately from the main device","已定义“干净设备”恢复方案":"Trusted-device recovery plan defined","银行、运营商、邮箱等官方恢复渠道已记录":"Official recovery channels for banks, carriers and email recorded","纸质与加密副本分开存放":"Paper and encrypted copies stored separately","账号接管后的顺序":"After an account takeover","换到干净设备":"Move to a trusted device","不要在疑似受控设备上继续改密码。":"Do not continue changing passwords on a device suspected of compromise.","保护主邮箱和运营商":"Secure the primary email account and mobile-carrier account","它们通常是其他账号的恢复根。":"Other accounts often depend on these recovery channels.","撤销会话与第三方授权":"Revoke sessions and third-party access","停止AI代理、扩展和不明OAuth。":"Disable AI agents, extensions and unfamiliar OAuth access.","联系官方渠道并保全证据":"Contact official channels and preserve evidence","记录时间、交易和通知，不与攻击者交涉。":"Record times, transactions and notices; do not negotiate with an attacker.","可信来源、谣言与高影响决策":"Trusted sources, rumors and consequential decisions","在信息爆炸和自动生成内容中，最重要的不是读得更多，而是把事实、来源、推断和行动分开。":"Separate observations, sources, interpretations and actions when reviewing a large volume of information and generated content.","可离线访问的官方来源数量":"Number of official sources available offline","高影响主张至少两个独立渠道":"At least two independent channels for consequential claims","转发和付款前暂停":"Pause before forwarding or paying","记录已核验谣言与更正":"Record checked rumors and corrections","官方电话、广播和地址可离线访问":"Official numbers, radio channels and addresses available offline","来源不依赖同一平台或同一转述链":"Sources do not all rely on one platform or retelling chain","三层信息板":"Three-part information board","已观察":"Observed","我亲自看见、测得或收到的原始记录。":"Original records I directly observed, measured or received.","来源陈述":"Source statements","由谁、何时、通过什么正式渠道发布。":"Who published it, when and through which official channel.","推断与行动":"Interpretation and action","我们据此判断什么；什么证据会推翻它。":"What we infer and what evidence would overturn that inference.","可信来源登记":"Trusted-source register","来源名称":"Source name","官方网站/电话/广播/地址":"Official website, telephone, radio channel or address","添加":"Add","模型能力不等于代表人的权力":"Model capability does not confer authority to act for a person","任何AI、自动化、浏览器扩展或Agent都必须按动作类型、对象、额度、期限和撤销路径重新授权。":"Authorize each AI tool, automation, extension or agent by action, subject, amount, duration and revocation route.","关键动作必须具名人工确认":"Consequential actions require named human confirmation","禁止自动转账和投资":"No automatic transfers or investments","禁止自动签约和同意条款":"No automatic signing or acceptance of terms","有一键撤销/停用流程":"Immediate revocation or disabling procedure available","已盘点所有AI和自动化授权":"All AI and automation permissions inventoried","每个工具只拥有最小权限和期限":"Each tool has limited permissions and duration","动作闸门测试":"Test the action gate","本地分析":"Local analysis","生成对外草稿":"Draft an external message","发送敏感消息":"Send a sensitive message","转账":"Transfer funds","签署合同":"Sign a contract","修改身份信息":"Change identity information","删除数据":"Delete data","改变用药":"Change medication","开放住宅权限":"Grant access to a home","自动医疗诊断":"Automated medical diagnosis","人的总价值排名":"Rank a person's overall worth","对外部系统产生作用":"Affects an external system","可能不可逆":"May be irreversible","存在有效、具体、未到期授权":"Valid, specific and unexpired authorization exists","当前有具名人最终确认":"A named person provides final confirmation now","评估动作":"Evaluate action","默认权限矩阵":"Default permission matrix","动作":"Action","默认状态":"Default status","必要条件":"Required conditions","本地摘要、清单、比较":"Local summaries, checklists and comparisons","允许":"Allowed","可逆，不调用外部账户":"Reversible; no external-account access","对外消息、申请、预约草稿":"Draft messages, applications and appointments","仅草稿":"Draft only","发送前逐项人工核对":"Human review of each item before sending","转账、投资、签约、身份修改":"Transfers, investments, contracts and identity changes","人工保留":"Reserved for human decision","交易级授权＋最终人工确认":"Transaction-specific authorization and final human confirmation","医疗、法律、福利资格最终决定":"Final medical, legal and benefit-eligibility decisions","禁止自动化":"No automated decision","由合格人员或适格机构负责":"Qualified people or authorized institutions remain responsible","迁移、会合与三人互助单元":"Relocation, meeting points and three-person mutual aid","孤立个体很脆弱；过度集中也很脆弱。建立不同技能、不同位置、最小披露的互助网络。":"Build a support network with different skills and locations while sharing only necessary information. Avoid dependence on either isolation or a single central point.","已演练路线数量":"Number of practiced routes","互助联系人数量":"Number of mutual-aid contacts","替代交通/步行路线":"Alternative transport or walking routes","临时安全目的地已核验":"Temporary safe destination verified","宠物或动物照护方案":"Pet or animal-care plan","有人负责检查脆弱成员":"Someone checks on vulnerable household members","已声明自己能提供的现实技能":"Practical skills available to help others recorded","共享资源和边界已约定":"Shared resources and boundaries agreed","已记录本地社区/公益/宗教/公共支持组织":"Local community, nonprofit, faith and public-support organizations recorded","三人互助单元":"Three-person mutual-aid unit","角色A：本地行动":"Role A: local action","— 接触现场、交通、邻里与实物资源。":"— Local conditions, transport, neighbors and material resources.","角色B：信息与通信":"Role B: information and communication","— 官方来源、纸质联系人和外地中继。":"— Official sources, paper contacts and out-of-area relay.","角色C：照护与恢复":"Role C: care and recovery","— 儿童、老人、药物、情绪和后续安排。":"— Children, older people, medication, emotional support and follow-up.","同一人可兼任，但至少要避免所有能力、设备和信息都集中在一个节点。":"One person may hold several roles, but avoid placing all capabilities, devices and information with one person.","联系人登记（不要写入敏感身份信息）":"Contact register; omit sensitive identity information","昵称或代号":"Alias or code name","角色/可提供能力":"Role or available capability","最小必要联系方式或存放位置":"Minimum contact details or their storage location","从“传言中的AGI”转向可观察信号":"Use observable disruption signals","不因网络传言立即进入恐慌，也不在多个系统已失效时继续等待“官方宣布AGI”。勾选你实际观察并核验的信号。":"Select signals you have observed and verified. Online rumors alone do not establish a crisis, and practical disruption can require action before any announcement about AGI.","建议模式":"Suggested mode","生命安全优先：":"Immediate safety:","如存在即时人身、火灾、医疗、暴力或官方撤离风险，请直接联系本地应急服务并遵循当地指令，不要等待本客户端给出结论。":"For immediate danger involving people, fire, medical needs, violence or an official evacuation, contact local emergency services and follow local instructions. Do not wait for this application.","安全演练与模型修订":"Safe practice and model revision","计划只有在演练中暴露失败，才开始接近真实能力。所有演练必须使用合成情景，不制造真正危险。":"Use synthetic exercises to expose gaps in the plan. Do not create real danger during a drill.","生成演练":"Generate an exercise","通信中断":"Communication outage","支付中断":"Payment outage","身份接管":"Identity takeover","撤离与路线":"Evacuation and routes","深度伪造与谣言":"Impersonation and rumors","生成":"Generate","记录现实结果":"Record actual results","日期":"Date","演练情景":"Exercise scenario","实际结果":"Actual outcome","需要修订":"Revision needed","写入现实回执":"Record outcome receipt","演练历史":"Exercise history","离线卡、决策回执与本地导出":"Offline cards, decision receipts and local export","数据归个体持有。导出后可加密保存、打印或交给家庭成员；不要把秘密写入文件。":"You retain your data. Encrypt, print or share an export with your household as appropriate; do not include secrets.","数据与计划":"Data and plans","导出连续性包 .hcpkg.json":"Export continuity package .hcpkg.json","导出完整本地备份":"Export full local backup","导出文本行动方案":"Export action plan as text","打印与核验":"Print and verify","打印离线家庭卡":"Print offline household card","验证回执链":"Verify receipt chain","清除本地数据":"Clear local data","行动方案预览":"Action-plan preview","世界":"Scenario","完全离线":"Fully offline","资产":"Asset","当前":"Current","目标":"Target","本地回执":"Local receipts","原则：":"Principle:","决定":"Decision","对象":"Object","置信":"Confidence","通道":"Channel","编号":"Identifier","概率":"Probability","解释":"Interpretation","状态":"Status","最小披露":"Minimum disclosure","公开":"Public","技能":"Skills","现实结果":"Observed outcome","主张":"Claim","风险":"Risk","发现":"Findings","重置":"Reset","路线":"Route","法律身份":"Legal identity","操作":"Actions","故意":"Intentional","模式":"Mode","假设":"Hypothesis","不要在此卡写密码、验证码、私钥或真实家庭暗号。":"Do not write passwords, verification codes, private keys or real family secret phrases on this card.","停止":"Stop","断开":"Disconnect","回拨":"Call back","私密挑战":"Private challenge","第二人":"Second person","闭环":"Closure","机构":"Institution","情境":"Context","稳定":"Stable","依赖":"Dependence","责任人":"Responsible person","停止条件":"Stop conditions","系统":"System","结构":"Structure","内容":"Content","健康":"Health","金融":"Finance","关系":"Relationships","建议":"Advice","维度":"Dimension","来源":"Source","问题":"Question","紧急":"Urgent","边界":"Scope","家庭":"Household","总价值":"Total value","事件":"Event"}}</script>
+<script>
+/* Interface localization. Creator: Yucong Duan (段玉聪). */
+(() => {
+  'use strict';
+  const configuration = document.getElementById('yd-interface-config');
+  if (!configuration) return;
+  const config = JSON.parse(configuration.textContent);
+  const dictionary = new Map(Object.entries(config.messages || {}).map(([a, b]) => [a.trim().replace(/\s+/g, ' '), b]));
+  const numeric = /\d[\d,]*(?:\.\d+)?/g;
+  const templates = [];
+  const escapePattern = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  for (const [source, target] of dictionary) {
+    const a = source.match(numeric) || [], b = target.match(numeric) || [];
+    if (!a.length || a.length > 12 || a.length !== b.length || !a.every((v, i) => v.replace(/,/g, '') === b[i].replace(/,/g, ''))) continue;
+    const parts = source.split(numeric);
+    templates.push({pattern: new RegExp('^' + parts.map(escapePattern).join('(\\d[\\d,]*(?:\\.\\d+)?)') + '$'), parts: target.split(numeric)});
+  }
+  const textState = new WeakMap();
+  const attributeState = new WeakMap();
+  const attributes = ['title', 'placeholder', 'aria-label', 'alt', 'label'];
+  const excluded = 'script,style,pre,code,textarea,[contenteditable],[data-source-language],[data-project-creator]';
+  let language = 'en';
+  const originalTitle = document.title;
+
+  function translate(value) {
+    const key = value.trim().replace(/\s+/g, ' ');
+    let translated = dictionary.get(key);
+    if (translated === undefined && /[\u3400-\u9fff]/.test(key)) {
+      for (const template of templates) {
+        const match = key.match(template.pattern);
+        if (!match) continue;
+        translated = template.parts.map((part, i) => part + (match[i + 1] || '')).join('');
+        break;
+      }
+    }
+    if (translated === undefined) return value;
+    const leading = value.match(/^\s*/)[0];
+    const trailing = value.match(/\s*$/)[0];
+    return leading + translated + trailing;
+  }
+
+  function updateText(node) {
+    const parent = node.parentElement;
+    if (!parent || parent.closest(excluded)) return;
+    let saved = textState.get(node);
+    const current = node.nodeValue;
+    if (!saved || current !== saved.rendered) saved = { original: current, rendered: current };
+    const next = language === 'en' ? translate(saved.original) : saved.original;
+    if (next !== current) {
+      // Translating an option label must not change the value used by the application.
+      if (parent.tagName === 'OPTION' && !parent.hasAttribute('value')) parent.setAttribute('value', parent.textContent);
+      node.nodeValue = next;
+    }
+    saved.rendered = next;
+    textState.set(node, saved);
+  }
+
+  function updateAttributes(element) {
+    if (!element || element.closest(excluded)) return;
+    let saved = attributeState.get(element);
+    if (!saved) { saved = new Map(); attributeState.set(element, saved); }
+    for (const name of attributes) {
+      if (!element.hasAttribute(name)) continue;
+      // The label attribute is an interface label on these elements only.
+      if (name === 'label' && !['OPTION', 'OPTGROUP', 'TRACK'].includes(element.tagName)) continue;
+      const current = element.getAttribute(name);
+      let prior = saved.get(name);
+      if (!prior || current !== prior.rendered) prior = { original: current, rendered: current };
+      const next = language === 'en' ? translate(prior.original) : prior.original;
+      if (next !== current) element.setAttribute(name, next);
+      prior.rendered = next; saved.set(name, prior);
+    }
+  }
+
+  function visit(root) {
+    if (root.nodeType === Node.TEXT_NODE) { updateText(root); return; }
+    if (root.nodeType !== Node.ELEMENT_NODE || root.closest(excluded)) return;
+    updateAttributes(root);
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) updateText(walker.currentNode);
+    for (const element of root.querySelectorAll('[title],[placeholder],[aria-label],[alt],[label]')) updateAttributes(element);
+  }
+
+  function setLanguage(next) {
+    language = next === 'zh' ? 'zh' : 'en';
+    document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
+    document.title = language === 'en' ? translate(originalTitle) : originalTitle;
+    visit(document.body);
+  }
+
+  function start() {
+    const select = config.nativeSelect ? document.querySelector(config.nativeSelect) : null;
+    const button = config.nativeButton ? document.querySelector(config.nativeButton) : null;
+    if (select) language = select.value === 'zh' ? 'zh' : 'en';
+    else if (config.storageKey) {
+      try { language = localStorage.getItem(config.storageKey) === 'zh' ? 'zh' : 'en'; } catch (_) { language = 'en'; }
+    }
+    setLanguage(language);
+    if (select) select.addEventListener('change', () => setLanguage(select.value));
+    if (button) button.addEventListener('click', () => setLanguage(language === 'en' ? 'zh' : 'en'));
+    const observer = new MutationObserver(records => {
+      for (const record of records) {
+        if (record.type === 'characterData') updateText(record.target);
+        else if (record.type === 'attributes') updateAttributes(record.target);
+        else for (const node of record.addedNodes) visit(node);
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: attributes });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
+  else start();
 })();
 
 </script>

@@ -1,5 +1,7 @@
 # DIKWP HUMAN CONTINUITY ARK / SHENGZHOU 28.0.0
 
+Created by Yucong Duan (段玉聪).
+
 > An offline-first personal and household continuity system for AGI-era functional disruptions.
 
 SHENGZHOU does not assume one cinematic AGI catastrophe. It prepares ordinary people for observable failures: income shock, AI-enabled impersonation, identity lockout, cloud/payment/communications outages, essential-service disruption, autonomous-agent incidents, temporary relocation, and compound crises.
@@ -44,4 +46,8 @@ A portfolio link records research continuity or semantic proximity. It does not 
 
 ## Dedication
 
-This project is dedicated to **Duan Dikweipu (段迪克维普)** as a statement of care for a future in which human purpose, dignity, and continuity remain protected. This dedication does not assign authorship, ownership, operational authority, endorsement, or legal responsibility to the dedicatee.
+This project is dedicated to Duan Dikweipu (段迪克维普) as a statement of care for a future in which human purpose, dignity, and continuity remain protected. This dedication does not assign authorship, ownership, operational authority, endorsement, or legal responsibility to the dedicatee.
+
+## Current interface presentation
+
+[Open the interface source](index.html) from the current repository download. See [interface and authorship notes](INTERFACE_NOTES.md) for English coverage, report generation and validation scope.
